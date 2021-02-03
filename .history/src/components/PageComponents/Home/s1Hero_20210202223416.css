@@ -1,0 +1,17 @@
+.homeHero {
+    margin: -8rem 0 0 0;
+	height: 95vh;
+}
+@media (max-width: 1280px) {
+	.homeHero {
+        height: 85vh;
+        margin: 0 0 0 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.homeHero {
+        height: 85vh;
+        margin: 0 0 0 0;
+	}
+}
