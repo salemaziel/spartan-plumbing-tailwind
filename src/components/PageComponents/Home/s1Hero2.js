@@ -23,17 +23,17 @@ const S1Hero2 = (props) => {
           backgroundPosition: '50% 50%',
         }}
       >
-        <div className="container flex flex-col items-center px-5 pt-32 pb-20 mx-auto md:py-24 lg:py-32 md:flex-row md:justify-between">
-          <div className="w-3/4 mb-10 lg:max-w-lg lg:w-full md:w-1/2 md:mb-0">
+        <div className="container flex flex-col items-center px-5 pt-32 pb-20 mx-auto md:py-24 lg:pt-12 lg:pb-32 md:flex-row md:justify-between">
+          <div className="w-11/12 mb-10 lg:max-w-2xl lg:w-full md:w-1/2 md:mb-0">
             <img
-              className="object-cover object-center w-full rounded md:mb-8"
+              className="block object-cover object-center w-full p-5 bg-white bg-opacity-75 rounded md:hidden md:mb-8"
               alt="Spartan Plumbing &amp; Drain"
               src={Logo}
             />
-            <h1 className="hidden mb-4 text-3xl font-medium text-gray-100 title-font sm:text-4xl md:block">
-              Quality, Reliable Plumbing <br className="hidden lg:inline-block" /> Service You Can
-              Trust
-            </h1>
+            <h2 className="hidden p-10 mb-4 text-3xl font-bold leading-loose tracking-wide text-center text-gray-100 uppercase bg-opacity-75 rounded font-montserrat lg:-mt-40 title-font sm:text-5xl md:block bg-logo-blue-500" style={{textShadow: "2px 2px 4px black"}}>
+              Quick &amp; Reliable Plumbing Service You Can
+              Trust.  
+            </h2>
           </div>
           <span className="hidden md:block">
             <EstimateForm />
@@ -104,15 +104,15 @@ const S1Hero2 = (props) => {
           </form>*/}
 
           <div className="flex flex-col items-center text-center lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 md:hidden md:items-start md:text-left">
-            <h1 className="mb-4 text-3xl font-medium text-gray-100 title-font sm:text-4xl">
-              Quality, Reliable Plumbing <br className="hidden lg:inline-block" /> Service You Can
+            <h2 className="mb-4 text-3xl font-medium text-gray-100 title-font sm:text-4xl" style={{textShadow: "2px 2px 4px black"}}>
+            Quick &amp; Reliable Plumbing <br className="invisible lg:inline-block" /> Service You Can
               Trust
-            </h1>
-            <p className="mb-8 leading-relaxed text-gray-100">On Time, Every Time</p>
+            </h2>
+            <p className="mb-8 leading-relaxed text-gray-100" style={{textShadow: "2px 2px 4px black"}}>On Time, Every Time</p>
             <div className="flex justify-center my-8 sm:my-10">
               <a
                 href="tel:6194831212"
-                className="inline-flex px-4 py-4 text-lg font-bold text-gray-100 bg-blue-800 border-0 rounded shadow-lg sm:px-6 focus:outline-none hover:bg-blue-600"
+                className="inline-flex px-4 py-4 text-lg font-bold text-gray-100 bg-blue-800 border-0 rounded shadow-lg sm:px-6 focus:outline-none hover:bg-blue-600" style={{boxShadow: "2px 0px 10px white"}}
               >
                 <FaPhoneAlt className="mt-1 mr-1" /> Call Now
               </a>

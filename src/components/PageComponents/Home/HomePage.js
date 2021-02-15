@@ -1,6 +1,5 @@
 import React from 'react'
 
-import S1Hero from "./s1Hero"
 
 import S1Hero3 from "./s1Hero3"
 
@@ -28,9 +27,12 @@ const HomePage = (props) => {
 <S1Hero2
 bgImage={BG}
 />
-<S2Intro />
 
 <S3InfoGrid />
+
+<S2Intro />
+
+
 
 {/*<S4LongCard />*/}
 

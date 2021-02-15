@@ -11,6 +11,7 @@ function EstimateModal() {
         type="button"
         style={{ transition: "all .15s ease" }}
         onClick={() => setShowModal(true)}
+        style={{boxShadow: " -2px 0px 10px white"}}
       >
         Get A Quote
       </button>

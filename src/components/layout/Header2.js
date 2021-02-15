@@ -1,6 +1,14 @@
 import React, {useState, useEffect} from 'react'
-
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaEnvelope,
+  FaMapMarkerAlt,
+  FaPhoneAlt
+} from "react-icons/fa"
 import Logo from "../../images/logo-1-words.png"
+import {Link} from "gatsby"
 
 
 const Header2  = () => {
@@ -15,53 +23,90 @@ const Header2  = () => {
   
   
     return (
-      <header className={ " transition-all" + " ease-out" + " duration-300" + (scroll ? ` bg-white` : " bg-transparent") + (scroll ? " shadow" : "" ) +  (scroll ? ` block` : " hidden" + " lg:block") + " px-4" + " py-5" + " mx-auto" + "msm:max-w-xl" + " w-full" + " md:max-w-full"  + " md:px-16" + " lg:px-8" + " sticky" + " top-0" + " left-0" + " right-0" + (scroll? ` text-blue-800` : ` text-gray-100`) } style={{zIndex: '100'}}>
-        <nav className="relative flex items-center justify-between">
-          <a
-            href="/"
+<>
+<Link
+            to="/"
             aria-label="Company"
             title="Company"
-            className="inline-flex items-center text-gray-100"
+            className="absolute z-20 items-center hidden text-gray-100 bg-white rounded md:block lg:mt-4 lg:ml-4 lg:w-1/4 lg:p-5"
           >
-              <img src={Logo} alt="Spartan Plumbing Logo" className="w-1/2 md:w-1/4" />
-            {/*<svg
-              className="w-8 text-deep-purple-accent-400"
-              viewBox="0 0 24 24"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeMiterlimit="10"
-              stroke="currentColor"
-              fill="none"
-            >
-              <rect x="3" y="1" width="7" height="12" />
-              <rect x="3" y="17" width="7" height="6" />
-              <rect x="14" y="1" width="7" height="6" />
-              <rect x="14" y="11" width="7" height="12" />
-            </svg>*/}
-            {/*<span className={"ml-2" + " text-xl" + " font-bold" + " tracking-wide" + (scroll? " text-blue-800" :  " text-gray-100") + " uppercase"} >
-              Via Del Web
-          </span>*/}
-          </a>
+              <img src={Logo} alt="Spartan Plumbing Logo" className="w-full" />
+          </Link>
+
+<div className="flex-row justify-center hidden py-6 mx-auto text-gray-100 bg-logo-blue-500 md:flex ">
+
+  <div className="flex w-full px-2 md:px-6 md:justify-between">
+    <div className="flex flex-row justify-end md:w-1/3 lg:w-5/12">
+
+                {/*<a href="#" className="flex py-2 text-lg text-gray-100 hover:text-red-accent-700">
+        <FaMapMarkerAlt className="w-5 h-5 mx-2" />
+        1234 Broadway St <br /> Escondido, CA 92025
+        </a>*/}
+          <a href="#" className="invisible py-2 text-lg font-bold tracking-widest text-gray-100 md:visible md:flex ">
+        <FaPhoneAlt className="w-5 h-5 mx-2" />
+        (619) 555-5555
+      </a>
+
+
+
+    </div>
+    <div className="flex flex-row justify-end w-1/4 align-middle">
+    <a href="#" className="inline-flex flex-wrap items-center justify-center mx-1 text-center text-gray-100 align-middle border border-gray-100 rounded-full md:p-2 lg:p-0 md:mx-2 md:w-10 md:h-10 ">
+      <FaFacebookF  size="1.5rem" className="" />
+    </a>
+    <a href="#" className="inline-flex flex-wrap items-center justify-center mx-1 text-center text-gray-100 align-middle border border-gray-100 rounded-full md:p-2 lg:p-0 md:mx-2 md:w-10 md:h-10 ">
+      <FaTwitter  size="1.5rem" className="" />
+    </a>
+    <a href="#" className="inline-flex flex-wrap items-center justify-center mx-1 text-center text-gray-100 align-middle border border-gray-100 rounded-full md:p-2 lg:p-0 md:mx-2 md:w-10 md:h-10 ">
+      <FaInstagram  size="1.5rem" className="" />
+    </a>
+    <a href="#" className="inline-flex flex-wrap items-center justify-center mx-1 text-center text-gray-100 align-middle border border-gray-100 rounded-full md:p-2 lg:p-0 md:mx-2 md:w-10 md:h-10 ">
+      <FaEnvelope size="1.5rem" className="" />
+    </a>
+    </div>
+  </div>
+</div>
+
+      <header className={ " transition-all" + " ease-out" + " duration-300" + (scroll ? ` bg-white` : " bg-white") + (scroll ? " shadow" : "" ) +  (scroll ? ` block` : " hidden" + " lg:block") + " px-4" + " py-5" + " mx-auto" + "msm:max-w-xl" + " w-full" + " md:max-w-full"  + " md:px-16" + " lg:px-8" + " sticky" + " top-0" + " left-0" + " right-0" + (scroll? ` text-blue-800` : ` text-blue-800`) + " z-10" } >
+        <nav className="container relative flex items-center justify-between mx-auto font-semibold uppercase font-montserrat">
+          <Link
+            to="/"
+            aria-label="Company"
+            title="Company"
+            className={" text-gray-100" + " inline-flex" + " items-center" + " md:w-56" + " w-40" + (scroll ? " visible" : " invisible")}
+          >
+              <img src={Logo} alt="Spartan Plumbing Logo" className="w-full" />
+          </Link>
           <ul className="flex items-center hidden space-x-8 lg:flex">
             <li className="px-4">
               <a
                 href="/"
                 aria-label="Our product"
                 title="Our product"
-                className={ "font-medium" + " tracking-wide" + (scroll? " text-blue-800" :  " text-gray-100") + " transition-colors" + " duration-200" + " hover:text-indigo-300" }
+                className={ " tracking-wide" + (scroll? " text-blue-800" :  " text-blue-800") + " transition-colors" + " duration-200" + " hover:text-indigo-300" }
               >
-                Product
+                Services
               </a>
+             
+            </li>
+            <li className="px-4">
+              <Link
+                to="/about"
+                aria-label="About us"
+                title="About us"
+                className={" tracking-wide" + (scroll? " text-blue-800" :  " text-blue-800") + " transition-colors" + " duration-200" + " hover:text-indigo-300" }
+              >
+                About Us
+              </Link>
             </li>
             <li className="px-4">
               <a
                 href="/"
                 aria-label="Our product"
                 title="Our product"
-                className={ "font-medium" + " tracking-wide" + (scroll? " text-blue-800" :  " text-gray-100") + " transition-colors" + " duration-200" + " hover:text-indigo-300" }
+                className={" tracking-wide" + (scroll? " text-blue-800" :  " text-blue-800") + " transition-colors" + " duration-200" + " hover:text-indigo-300" }
               >
-                Features
+                Service Areas
               </a>
             </li>
             <li className="px-4">
@@ -69,32 +114,23 @@ const Header2  = () => {
                 href="/"
                 aria-label="Product pricing"
                 title="Product pricing"
-                className={ "font-medium" + " tracking-wide" + (scroll? " text-blue-800" :  " text-gray-100") + " transition-colors" + " duration-200" + " hover:text-indigo-300" }
+                className={" tracking-wide" + (scroll? " text-blue-800" :  " text-blue-800") + " transition-colors" + " duration-200" + " hover:text-indigo-300" }
               >
                 Pricing
               </a>
             </li>
-            <li className="px-4">
-              <a
-                href="/"
-                aria-label="About us"
-                title="About us"
-                className={ "font-medium" + " tracking-wide" + (scroll? " text-blue-800" :  " text-gray-100") + " transition-colors" + " duration-200" + " hover:text-indigo-300" }
-              >
-                About
-              </a>
-            </li>
+
           </ul>
           <ul className="flex items-center hidden space-x-8 lg:flex">
           <li className="px-4">
-              <a
-                href="/"
+              <Link
+                to="/contact"
                 className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white whitespace-no-wrap transition duration-200 rounded shadow-md lg:py-2 lg:px-8 bg-red-accent-700 hover:bg-blue-700 hover:text-gray-100 focus:shadow-outline focus:outline-none"
                 aria-label="Sign up"
                 title="Sign up"
               >
-                Sign up
-              </a>
+                Contact Us
+              </Link>
             </li>
           </ul>
           <div className="lg:hidden">
@@ -124,7 +160,7 @@ const Header2  = () => {
                 <div className="p-5 bg-white border rounded shadow-sm">
                   <div className="flex items-center justify-between mb-4">
                     <div>
-                      <a
+                      {/*<a
                         href="/"
                         aria-label="Company"
                         title="Company"
@@ -148,7 +184,15 @@ const Header2  = () => {
                         <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
                           Company
                         </span>
-                      </a>
+                      </a>*/}
+                        <Link
+            to="/"
+            aria-label="Company"
+            title="Company"
+            className="inline-flex items-center w-40 text-gray-100"
+          >
+              <img src={Logo} alt="Spartan Plumbing Logo" className="w-full" />
+          </Link>
                     </div>
                     <div>
                       <button
@@ -199,14 +243,14 @@ const Header2  = () => {
                         </a>
                       </li>
                       <li>
-                        <a
-                          href="/"
+                        <Link
+                          to="/about"
                           aria-label="About us"
                           title="About us"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           About us
-                        </a>
+                        </Link>
                       </li>
                       <li>
                         <a
@@ -226,6 +270,8 @@ const Header2  = () => {
           </div>
         </nav>
       </header>
+
+      </>
     );
   };
 

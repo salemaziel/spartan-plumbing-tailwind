@@ -72,3 +72,18 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 yarn.lock
+
+
+
+.history*
+
+/.history
+
+.history/
+/.history/
+
+.vscode/*
+
+/.vscode/
+
+.vscode

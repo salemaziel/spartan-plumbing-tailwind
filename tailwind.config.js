@@ -2,7 +2,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Montserrat', "sans-serif"],
+        montserrat: ['Montserrat', "sans-serif"],
+        raleway: ['Raleway', "sans-serif"],
       },
       colors: {
         primary: {
@@ -302,6 +303,9 @@ module.exports = {
           800: '#4e342e',
           900: '#3e2723',
         },
+        'logo-blue': {
+          500: '#0a4a89'
+        }
       },
       spacing: {
         '7': '1.75rem',

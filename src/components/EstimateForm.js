@@ -10,7 +10,7 @@ const EstimateForm = (props) => {
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           action="/#"
-          className="flex-col w-full p-6 bg-gray-100 rounded-lg md:p-8 md:mt-10 md:w-3/4 md:flex md:mx-auto lg:mr-0 ">
+          className="flex-col w-full p-6 bg-gray-100 rounded md:p-8 md:mt-10 md:w-3/4 lg:w-11/12 md:flex md:mx-auto lg:mr-0 ">
             <h2 className="mb-5 text-lg font-medium text-center text-gray-900 title-font">Get A Free Estimate</h2>
             <div className="relative mb-3">
 
