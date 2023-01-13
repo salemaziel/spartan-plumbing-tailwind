@@ -1,3 +1,3 @@
-import './src/css/tailwind.css';
+import './src/css/globals.css';
 import "@fontsource/raleway";
 import "@fontsource/montserrat";

@@ -71,8 +71,8 @@ const Header2  = () => {
         <nav className="container relative flex items-center justify-between mx-auto font-semibold uppercase font-montserrat">
           <Link
             to="/"
-            aria-label="Company"
-            title="Company"
+            aria-label="Spartan Plumbing"
+            title="Spartan Plumbing"
             className={" text-gray-100" + " inline-flex" + " items-center" + " md:w-56" + " w-40" + (scroll ? " visible" : " invisible")}
           >
               <img src={Logo} alt="Spartan Plumbing Logo" className="w-full" />
@@ -80,14 +80,24 @@ const Header2  = () => {
           <ul className="flex items-center hidden space-x-8 lg:flex">
             <li className="px-4">
               <a
-                href="/"
-                aria-label="Our product"
-                title="Our product"
+                href="#"
+                aria-label="Services"
+                title="Services"
                 className={ " tracking-wide" + (scroll? " text-blue-800" :  " text-blue-800") + " transition-colors" + " duration-200" + " hover:text-indigo-300" }
               >
                 Services
               </a>
              
+            </li>
+            <li className="px-4">
+              <a
+                href="#"
+                aria-label="Service Areas"
+                title="Service Areas"
+                className={" tracking-wide" + (scroll? " text-blue-800" :  " text-blue-800") + " transition-colors" + " duration-200" + " hover:text-indigo-300" }
+              >
+                Service Areas
+              </a>
             </li>
             <li className="px-4">
               <Link
@@ -100,36 +110,27 @@ const Header2  = () => {
               </Link>
             </li>
             <li className="px-4">
-              <a
-                href="/"
-                aria-label="Our product"
-                title="Our product"
+              <Link
+                to="/contact"
+                aria-label="contact"
+                title="contact"
                 className={" tracking-wide" + (scroll? " text-blue-800" :  " text-blue-800") + " transition-colors" + " duration-200" + " hover:text-indigo-300" }
               >
-                Service Areas
-              </a>
+                Contact Us
+              </Link>
             </li>
-            <li className="px-4">
-              <a
-                href="/"
-                aria-label="Product pricing"
-                title="Product pricing"
-                className={" tracking-wide" + (scroll? " text-blue-800" :  " text-blue-800") + " transition-colors" + " duration-200" + " hover:text-indigo-300" }
-              >
-                Pricing
-              </a>
-            </li>
+
 
           </ul>
           <ul className="flex items-center hidden space-x-8 lg:flex">
           <li className="px-4">
               <Link
-                to="/contact"
+                to="#"
                 className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white whitespace-no-wrap transition duration-200 rounded shadow-md lg:py-2 lg:px-8 bg-red-accent-700 hover:bg-blue-700 hover:text-gray-100 focus:shadow-outline focus:outline-none"
-                aria-label="Sign up"
-                title="Sign up"
+                aria-label="Emergency Services"
+                title="Emergency Services"
               >
-                Contact Us
+                Emergency Services
               </Link>
             </li>
           </ul>
@@ -214,54 +215,57 @@ const Header2  = () => {
                     <ul className="space-y-4">
                       <li>
                         <a
-                          href="/"
-                          aria-label="Our product"
-                          title="Our product"
+                          href="#"
+                          aria-label="Services"
+                          title="Services"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Product
+                          Services
                         </a>
                       </li>
                       <li>
                         <a
-                          href="/"
-                          aria-label="Our product"
-                          title="Our product"
+                          href="#"
+                          aria-label="Service Areas"
+                          title="Service Areas"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Features
+                          Service Areas
                         </a>
                       </li>
                       <li>
                         <a
-                          href="/"
-                          aria-label="Product pricing"
-                          title="Product pricing"
+                          href="/about"
+                          aria-label="About"
+                          title="About"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Pricing
+                          About Us
                         </a>
                       </li>
+
                       <li>
                         <Link
-                          to="/about"
-                          aria-label="About us"
-                          title="About us"
+                          to="/contact"
+                          aria-label="Contact us"
+                          title="Contact us"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          About us
+                          Contact us
                         </Link>
                       </li>
                       <li>
                         <a
-                          href="/"
+                          href="#"
                           className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-red-accent-700 hover:bg-red-accent-400 focus:shadow-outline focus:outline-none"
-                          aria-label="Sign up"
-                          title="Sign up"
+                          aria-label="contact"
+                          title="Contact"
                         >
-                          Sign up
+                      Emergency Services
                         </a>
                       </li>
+
+
                     </ul>
                   </nav>
                 </div>
