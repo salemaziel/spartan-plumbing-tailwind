@@ -75,15 +75,7 @@ yarn-error.log
 
 
 
-.history*
-
-/.history
-
 .history/
-/.history/
 
-.vscode/*
 
-/.vscode/
-
-.vscode
+.vscode/
