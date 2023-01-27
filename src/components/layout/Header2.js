@@ -79,14 +79,14 @@ const Header2  = () => {
           </Link>
           <ul className="flex items-center hidden space-x-8 lg:flex">
             <li className="px-4">
-              <a
-                href="#"
+              <Link
+                to="/services"
                 aria-label="Services"
                 title="Services"
                 className={ " tracking-wide" + (scroll? " text-blue-800" :  " text-blue-800") + " transition-colors" + " duration-200" + " hover:text-indigo-300" }
               >
                 Services
-              </a>
+              </Link>
              
             </li>
             <li className="px-4">
