@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-import S1Hero3 from "./s1Hero3"
+//import S1Hero3 from "./s1Hero3"
 
 import S2Intro from "./s2Intro"
 import S3InfoGrid from "./s3InfoGrid"
@@ -20,26 +20,39 @@ import S7CTA from './s7CTA'
 import S1Hero2 from "./s1Hero2"
 import BG from "../../../images/blue-red-pipewrench.jpg"
 
+import S1Hero from "./s1Hero"
+
 
 const HomePage = (props) => {
     return(
         <>
-<S1Hero2
+<S1Hero
 bgImage={BG}
+Title="Quality Plumbing Services You Can Trust"
+Description="We are a family owned and operated business serving the greater San Diego area. We are licensed, bonded and insured and we offer a wide range of plumbing services for both residential and commercial properties."
+ButtonText="Get Started"
+BelowButtonText="Sed fermentum felis ut cursu"
 />
-
-<S3InfoGrid />
 
 <S2Intro />
 
 
 
+<S3InfoGrid />
+
+
+
+
+{/*<S4Text3Pics />*/}
+
 {/*<S4LongCard />*/}
 
-<S4Text3Pics />
+
 
 <S5Testimonials />
-<S6FAQ />
+
+
+{/*<S6FAQ />*/}
 
 
 
@@ -81,9 +94,10 @@ bgImage={BG}
 
         <S7CTA
         Title="Ready to grow your business?"
-        Description="Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus
+        CTALine1="Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus
         in."
-        ButtonText="Get Started Now"
+        CTALine2="Contact us to schedule your estimate today"
+        Button1Text="Get Started"
         />
 
 

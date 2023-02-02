@@ -26,8 +26,8 @@ const S1Hero = (props) => {
     <div className="flex flex-col items-center justify-between xl:flex-row">
       <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
         <h2 className="max-w-xl mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
-          About <br className="hidden md:block" />
-          Spartan Plumbing &amp; Drain
+          About Us{/*<br className="hidden md:block" />
+          Spartan Plumbing &amp; Drain*/}
         </h2>
        {/*} <p className="max-w-xl mb-4 leading-relaxed text-gray-200 text-md md:text-lg">
         We provide a wide range of professional services to meet your needs. We promise to provide every service with a smile, and to your highest level of satisfaction.

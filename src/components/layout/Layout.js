@@ -1,13 +1,13 @@
 import React from 'react';
-import Footer2 from './Footer2';
-import Header2 from './Header2';
+import Footer from './Footer';
+import Header from './Header';
 
 const Layout = ({ children }) => {
   return (
     <>
-      <Header2 />
+      <Header />
       <main className="text-gray-900">{children}</main>
-      <Footer2 />
+      <Footer />
     </>
   );
 };

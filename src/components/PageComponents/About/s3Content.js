@@ -55,7 +55,7 @@ const S3Content = (props) => {
     </section>
 
     
-<section className="py-20">
+{/*<section className="py-20">
   <div className="container px-4 mx-auto">
     <div className="max-w-2xl mx-auto">
       <div className="relative px-4 py-12 mb-6 rounded-lg lg:px-24 bg-gray-50">
@@ -69,7 +69,7 @@ const S3Content = (props) => {
       <p className="text-lg text-center text-gray-500">Danny Bailey, CEO &amp; Founder at Wireframes</p>
     </div>
   </div>
-</section>
+</section>*/}
 </>
   );
 };

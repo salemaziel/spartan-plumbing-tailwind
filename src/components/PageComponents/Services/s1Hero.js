@@ -11,7 +11,7 @@ const S1Hero = (props) => {
   className="absolute inset-0 object-cover w-full h-full"
   alt=""
 />
-<section className="relative bg-opacity-75 bg-blue-accent-700">
+<section className="relative bg-opacity-75 pb-28 bg-blue-accent-700">
   <svg
     className="absolute inset-x-0 text-white"
     viewBox="0 0 1160 163"
@@ -29,7 +29,7 @@ const S1Hero = (props) => {
           Services<br className="hidden md:block" />
          
         </h2>
-        <p className="max-w-xl mb-4 leading-relaxed text-gray-200 text-md md:text-lg">
+        {/*<p className="max-w-xl mb-4 leading-relaxed text-gray-200 text-md md:text-lg">
         We provide a wide range of professional services to meet your needs. We promise to provide every service with a smile, and to your highest level of satisfaction.
         </p>
         <a
@@ -45,7 +45,7 @@ const S1Hero = (props) => {
           >
             <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
           </svg>
-        </a>
+        </a>*/}
       </div>
     </div>
   </div>
