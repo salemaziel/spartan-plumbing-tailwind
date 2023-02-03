@@ -1,10 +1,9 @@
-import React from 'react'
+import * as React from 'react'
 import Layout from '../components/layout/Layout'
 
 import AboutPage from "../components/PageComponents/About/AboutPage"
 
-const About = (props) => {
-    return(
+const About = () => (
         <Layout>
             <AboutPage />
 
@@ -12,6 +11,5 @@ const About = (props) => {
 
         </Layout>
     )
-} 
 
 export default About

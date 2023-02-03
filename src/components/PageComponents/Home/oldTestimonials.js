@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import LabelText from '../../LabelText';
 import CustomerCard from '../../CustomerCard';
 import customerData from '../../../data/customer-data';

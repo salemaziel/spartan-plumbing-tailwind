@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 const S2Intro = (props) => {
   return (
@@ -9,9 +9,9 @@ const S2Intro = (props) => {
       <h1 className="mb-8 text-2xl font-bold tracking-tighter text-center text-blue-900 lg:text-left lg:text-4xl title-font">
       Welcome to Spartan Plumbing and Drain!
       </h1>
-      <p className="mb-8 text-lg leading-relaxed text-center text-gray-700 lg:text-left lg:text-1xl">
-       We are a professional plumbing company serving California in the cities of Escondido, San Marcos, Vista, Oceanside, Poway, Mira Mesa , Miramar , San Diego , Greater San Diego County and Temecula.</p>
-       <p className="mb-8 text-lg leading-relaxed text-center text-gray-700 lg:text-left lg:text-1xl"> Our team is dedicated to providing quality service at competitive prices. With years of experience in the industry we can guarantee that our services will exceed your expectations. Contact us today for all your plumbing needs!
+      <p className="mb-8 text-lg leading-relaxed text-left text-gray-700 lg:text-left lg:text-xl">
+       We are a professional plumbing company serving California in the cities of Escondido, San Marcos, Oceanside, Vista, Poway, Mira Mesa, Miramar, San Diego and Greater San Diego County and Temecula.</p>
+       <p className="mb-8 text-lg leading-relaxed text-left text-gray-700 lg:text-left lg:text-xl"> Our team is dedicated to providing quality service at competitive prices. With years of experience in the industry we can guarantee that our services will exceed your expectations. Contact us today for all your plumbing needs!
       </p>
       
       

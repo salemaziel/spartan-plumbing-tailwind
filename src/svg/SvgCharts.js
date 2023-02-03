@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 const mainColor = '#4299e1';
 

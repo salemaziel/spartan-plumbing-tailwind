@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 
 
 //import S1Hero3 from "./s1Hero3"

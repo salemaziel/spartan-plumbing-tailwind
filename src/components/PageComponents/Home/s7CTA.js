@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 import Button from "../../Button"
 
@@ -23,7 +23,7 @@ const S7CTA = (props) => {
       <span className="block text-indigo-600">{props.CTALine2}</span>
     </h2>
     <div className="flex mt-8 lg:mt-0 lg:flex-shrink-0">
-      <div className="inline-flex rounded-md shadow">
+      <div className="inline-flex mx-auto rounded-md shadow">
         <a href="#" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-white bg-red-800 border border-transparent rounded-md hover:bg-red-900">
           {props.Button1Text}
         </a>

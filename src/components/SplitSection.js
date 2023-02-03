@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 const SplitSection = ({ id, primarySlot, secondarySlot, reverseOrder }) => (
   <section id={id} className="py-20">

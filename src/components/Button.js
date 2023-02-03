@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 const sizes = {
   default: `py-3 px-8`,

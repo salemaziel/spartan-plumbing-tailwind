@@ -5,13 +5,12 @@ import EstimateForm from "./EstimateForm"
 function EstimateModal() {
   const [showModal, setShowModal] = React.useState(false);
   return (
-    <>
+    <div className="inline-block">
       <button
-        className="inline-flex px-4 py-4 ml-4 text-lg font-bold text-gray-100 whitespace-normal bg-red-800 border-0 rounded shadow-lg sm:px-6 focus:outline-none hover:bg-gray-200"
+        className="px-4 py-4 ml-4 text-lg font-bold text-gray-100 whitespace-normal bg-red-800 border-0 rounded shadow-lg sm:px-6 focus:outline-none hover:bg-gray-200"
         type="button"
-        style={{ transition: "all .15s ease" }}
+        style={{ transition: "all .15s ease", boxShadow: " -2px 0px 10px white" }}
         onClick={() => setShowModal(true)}
-        style={{boxShadow: " -2px 0px 10px white"}}
       >
         Get A Quote
       </button>
@@ -19,8 +18,7 @@ function EstimateModal() {
         <>
           <div
             className="fixed inset-0 z-50 flex items-center justify-center overflow-x-hidden overflow-y-auto outline-none focus:outline-none"
-            onClick={() => setShowModal(false)}
-          >
+          ></div>
             <div className="relative w-auto max-w-3xl px-2 mx-auto my-6">
               {/*content*/}
               <div className="relative flex flex-col w-full bg-white border-0 rounded-lg shadow-lg outline-none focus:outline-none">
@@ -41,7 +39,7 @@ function EstimateModal() {
 
                 
                 {/*body*/}
-                <div className="relative flex-auto p-0">
+                <div className="flex-auto p-0">
                     <EstimateForm />
 
                 </div>
@@ -64,13 +62,13 @@ function EstimateModal() {
                     Save Changes
                   </button>
             </div>*/}
-              </div>
+              
             </div>
           </div>
-          <div className="fixed inset-0 z-40 bg-black opacity-25"></div>
+          <div className="fixed inset-0 z-40 bg-black opacity-25" ></div>
         </>
       ) : null}
-    </>
+    </div>
   );
 }
 

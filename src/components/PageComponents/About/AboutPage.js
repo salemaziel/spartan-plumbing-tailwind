@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 
 import S1Banner from "./s1Banner"
 import S1Hero from './s1Hero'

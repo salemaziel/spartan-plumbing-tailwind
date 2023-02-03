@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 const Footer = () => (
 <footer className="text-gray-100 bg-logo-blue-500">

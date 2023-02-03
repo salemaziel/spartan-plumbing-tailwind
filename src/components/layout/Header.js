@@ -17,40 +17,45 @@ const Header = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      setScroll(window.scrollY > 100);
+      setScroll(window.scrollY > 60);
     });
   }, []);
 
 
   return (
     <>
+      {/* Begin Full Top Bar Above Nav*/}
+      {/* Begin Company logo */}
       <Link
         to="/"
         aria-label="Company"
-        title="Company"
-        className="absolute z-20 items-center hidden text-gray-100 bg-white rounded md:block lg:mt-4 lg:ml-4 lg:w-1/4 lg:p-5"
+        title="Spartan Plumbing and Drain"
+        className="absolute z-20 items-center hidden text-gray-100 bg-white rounded lg:block lg:mt-4 lg:ml-4 lg:w-1/4 lg:p-5"
       >
         <img src={Logo} alt="Spartan Plumbing Logo" className="w-full" />
       </Link>
+      {/* End Logo */}
 
-      <div className="flex-row justify-center hidden py-6 mx-auto text-gray-100 bg-logo-blue-500 md:flex ">
+      {/* Begin Blue Part of Top Bar Above Nav*/}
+      <div className="flex-row justify-center hidden py-6 mx-auto text-gray-100 bg-logo-blue-500 lg:flex ">
 
-        <div className="flex w-full px-2 md:px-6 md:justify-between">
+        {/* Begin Centering of Top Bar for Content */}
+        <div className="flex justify-center w-full px-2 lg:flex md:px-6 md:justify-between">
+          {/* Begin Phone number*/}
+
           <div className="flex flex-row justify-end md:w-1/3 lg:w-5/12">
 
-            {/*<a href="#" className="flex py-2 text-lg text-gray-100 hover:text-red-accent-700">
-        <FaMapMarkerAlt className="w-5 h-5 mx-2" />
-        1234 Broadway St <br /> Escondido, CA 92025
-        </a>*/}
-            <a href="tel:6193249396" className="invisible py-2 text-lg font-bold tracking-widest text-gray-100 md:visible md:flex ">
-              <FaPhoneAlt className="w-5 h-5 mx-2" />
+            <a href="tel:6193249396" className="flex visible py-2 text-3xl font-bold tracking-widest text-gray-100 font-montserrat lg:text-lg ">
+              <FaPhoneAlt className="w-8 h-8 mx-2 lg:w-5 lg:h-5" />
               (619) 324-9396
             </a>
 
 
-
           </div>
-          <div className="flex flex-row justify-end w-1/4 align-middle">
+          {/* End Phone number*/}
+
+          {/* Begin Socials*/}
+          <div className="flex-row justify-end hidden w-1/4 align-middle lg:flex">
             <a href="#" className="inline-flex flex-wrap items-center justify-center mx-1 text-center text-gray-100 align-middle border border-gray-100 rounded-full md:p-2 lg:p-0 md:mx-2 md:w-10 md:h-10 ">
               <FaFacebookF size="1.5rem" className="" />
             </a>
@@ -64,8 +69,12 @@ const Header = () => {
               <FaEnvelope size="1.5rem" className="" />
             </a>
           </div>
+          {/* End Socials*/}
         </div>
+        {/* End Centering of Top Bar for Content */}
       </div>
+
+      {/* End Blue Part of Top Bar Above Nav*/}
 
       <header className={" transition-all" + " ease-out" + " duration-300" + (scroll ? ` bg-white` : " bg-white") + (scroll ? " shadow" : "") + (scroll ? ` block` : " hidden" + " lg:block") + " px-4" + " py-5" + " mx-auto" + "msm:max-w-xl" + " w-full" + " md:max-w-full" + " md:px-16" + " lg:px-8" + " sticky" + " top-0" + " left-0" + " right-0" + (scroll ? ` text-blue-800` : ` text-blue-800`) + " z-10"} >
         <nav className="container relative flex items-center justify-between mx-auto font-semibold uppercase font-montserrat">
@@ -78,7 +87,7 @@ const Header = () => {
             <img src={Logo} alt="Spartan Plumbing Logo" className="w-full" />
           </Link>
           <ul className="flex items-center hidden space-x-8 lg:flex">
-            <li className="px-4">
+            <li className="px-4 lg:order-1">
               <Link
                 to="/services"
                 aria-label="Services"
@@ -89,17 +98,17 @@ const Header = () => {
               </Link>
 
             </li>
-            <li className="px-4">
-              <a
-                href="#"
+            <li className="px-4 lg:order-2">
+              <Link
+                to="#"
                 aria-label="Service Areas"
                 title="Service Areas"
                 className={" tracking-wide" + (scroll ? " text-blue-800" : " text-blue-800") + " transition-colors" + " duration-200" + " hover:text-indigo-300"}
               >
                 Service Areas
-              </a>
+              </Link>
             </li>
-            <li className="px-4">
+            <li className="px-4 lg:order-3">
               <Link
                 to="/about"
                 aria-label="About us"
@@ -109,7 +118,7 @@ const Header = () => {
                 About Us
               </Link>
             </li>
-            <li className="px-4">
+            <li className="px-4 lg:order-4">
               <Link
                 to="/contact"
                 aria-label="contact"
@@ -125,7 +134,7 @@ const Header = () => {
           <ul className="flex items-center hidden space-x-8 lg:flex">
             <li className="px-4">
               <Link
-                to="#"
+                to="/emergency-services"
                 className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white whitespace-no-wrap transition duration-200 rounded shadow-md lg:py-2 lg:px-8 bg-red-accent-700 hover:bg-blue-700 hover:text-gray-100 focus:shadow-outline focus:outline-none"
                 aria-label="Emergency Services"
                 title="Emergency Services"
@@ -189,7 +198,7 @@ const Header = () => {
                       <Link
                         to="/"
                         aria-label="Company"
-                        title="Company"
+                        title="Spartan Plumbing and Drain"
                         className="inline-flex items-center w-40 text-gray-100"
                       >
                         <img src={Logo} alt="Spartan Plumbing Logo" className="w-full" />
@@ -213,56 +222,57 @@ const Header = () => {
                   </div>
                   <nav>
                     <ul className="space-y-4">
+                    <li>
+                        <Link
+                          href="/about"
+                          aria-label="About"
+                          title="About Us"
+                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        >
+                          About Us
+                        </Link>
+                      </li>
                       <li>
-                        <a
-                          href="#"
+                        <Link
+                          to="/services"
                           aria-label="Services"
                           title="Services"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Services
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="#"
+                        <Link
+                          to="/service-areas"
                           aria-label="Service Areas"
                           title="Service Areas"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Service Areas
-                        </a>
+                        </Link>
                       </li>
-                      <li>
-                        <a
-                          href="/about"
-                          aria-label="About"
-                          title="About"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                        >
-                          About Us
-                        </a>
-                      </li>
+
 
                       <li>
                         <Link
                           to="/contact"
-                          aria-label="Contact us"
-                          title="Contact us"
+                          aria-label="Contact"
+                          title="Contact"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Contact us
+                          Contact
                         </Link>
                       </li>
                       <li>
-                        <a
-                          href="#"
+                        <Link
+                          to="/emergency-services"
                           className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-red-accent-700 hover:bg-red-accent-400 focus:shadow-outline focus:outline-none"
-                          aria-label="contact"
-                          title="Contact"
+                          aria-label="emergency services"
+                          title="Emergency Services"
                         >
                           Emergency Services
-                        </a>
+                        </Link>
                       </li>
 
 
