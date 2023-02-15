@@ -1,6 +1,6 @@
 import * as React from 'react';
-import Button from "../../Button"
-import HeroImage from "../../../svg/HeroImage"
+//import Button from "../../Button"
+//import HeroImage from "../../../svg/HeroImage"
 
 import Logo from "../../../images/logo-1-words.png"
 

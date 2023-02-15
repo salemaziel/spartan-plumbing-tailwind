@@ -86,7 +86,7 @@ const Header = () => {
           >
             <img src={Logo} alt="Spartan Plumbing Logo" className="w-full" />
           </Link>
-          <ul className="flex items-center hidden space-x-8 lg:flex">
+          <ul className="items-center hidden space-x-8 lg:flex">
             <li className="px-4 lg:order-1">
               <Link
                 to="/services"
@@ -100,7 +100,7 @@ const Header = () => {
             </li>
             <li className="px-4 lg:order-2">
               <Link
-                to="#"
+                to="/service-areas"
                 aria-label="Service Areas"
                 title="Service Areas"
                 className={" tracking-wide" + (scroll ? " text-blue-800" : " text-blue-800") + " transition-colors" + " duration-200" + " hover:text-indigo-300"}
@@ -131,7 +131,7 @@ const Header = () => {
 
 
           </ul>
-          <ul className="flex items-center hidden space-x-8 lg:flex">
+          <ul className="items-center hidden space-x-8 lg:flex">
             <li className="px-4">
               <Link
                 to="/emergency-services"

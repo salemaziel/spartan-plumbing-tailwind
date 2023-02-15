@@ -1,16 +1,16 @@
 import React from "react";
 
 
-import S1Hero from "./s1Hero";
 import S2Services from "./s2Services";
-import { navigate } from "gatsby";
-
+import PageBanner from "../../pageBanner";
 
 const ServicesPage = () => {
     return(
 
 <>
-        <S1Hero />
+        <PageBanner
+            PageName="Services"
+            />
         <S2Services />
 </>
     )

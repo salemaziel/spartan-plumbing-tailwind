@@ -1,12 +1,14 @@
 import React from "react";
-import S1Hero from "./s1Hero";
 import S2Form from "./s2Form";
 
+import PageBanner from "../../pageBanner";
 
 const ContactPage = () => {
     return(
         <>
-        <S1Hero />
+        <PageBanner
+            PageName="Contact Us"
+            />
         <S2Form />
         </>
     )

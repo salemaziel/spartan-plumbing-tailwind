@@ -23,7 +23,7 @@ const S3InfoGrid = (props) => {
   </Link>
   {/* image - end */}
   {/* image - start */}
-  <Link to="" className="relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80">
+  <Link to="/services/water-heater-installations" className="relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80">
     <img src="https://plus.unsplash.com/premium_photo-1661301068444-8ac48208d017?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Magicle" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />
     <div className="absolute inset-0 opacity-50 pointer-events-none bg-gradient-to-t from-gray-800 via-transparent to-transparent" />
     <span className="relative inline-block mb-3 ml-4 text-sm text-white md:text-lg md:ml-5">Water Heater Installations</span>
