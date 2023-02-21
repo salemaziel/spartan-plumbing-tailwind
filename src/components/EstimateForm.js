@@ -12,11 +12,11 @@ const EstimateForm = (props) => {
           action="/#"
           className="flex-col w-full p-6 px-4 bg-gray-100 rounded md:p-8 lg:mt-10 lg:w-11/12 md:flex md:mx-auto lg:mr-0 ">
             <h2 className="block mb-5 text-3xl font-bold text-center text-blue-900 font-montserrat title-font">Request A Quote Today</h2>
-            <div className="relative flex flex-row mb-3">
+            <div className="relative flex flex-col mb-3 md:flex-row">
 
             <input type="hidden" name="bot-field" />
             <input type="hidden" name="form-name" value="estimateform" />
-              <div className="w-1/2 pr-1">
+              <div className="w-full md:w-1/2 md:pr-1">
               <label htmlFor="firstName" className="text-sm leading-7 text-gray-600">
                 First Name*
               </label>
@@ -28,7 +28,7 @@ const EstimateForm = (props) => {
                 className="w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-white border border-gray-300 rounded outline-none focus:border-blue-800 focus:ring-2 focus:ring-blue-800"
               />
             </div>
-            <div className="w-1/2 pl-1">
+            <div className="w-full md:w-1/2 md:pl-1">
               <label htmlFor="lastName" className="text-sm leading-7 text-gray-600">
                 Last Name*
               </label>

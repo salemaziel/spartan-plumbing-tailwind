@@ -24,8 +24,6 @@ const Header = () => {
 
   return (
     <>
-      {/* Begin Full Top Bar Above Nav*/}
-      {/* Begin Company logo */}
       <Link
         to="/"
         aria-label="Company"
@@ -86,53 +84,94 @@ const Header = () => {
           >
             <img src={Logo} alt="Spartan Plumbing Logo" className="w-full" />
           </Link>
-          <ul className="items-center hidden space-x-8 lg:flex">
-            <li className="px-4 lg:order-1">
+          <div className="items-center hidden space-x-8 lg:flex">
+            <div className="px-4 py-4 lg:order-1 group">
               <Link
                 to="/services"
                 aria-label="Services"
                 title="Services"
-                className={" tracking-wide" + (scroll ? " text-blue-800" : " text-blue-800") + " transition-colors" + " duration-200" + " hover:text-indigo-300"}
+                className={" tracking-wide" + " text-lg" + (scroll ? " text-blue-800" : " text-blue-800") + " transition-colors" + " duration-200" + " hover:text-indigo-300"}
               >
                 Services
               </Link>
+                <ul className="absolute z-10 hidden w-56 p-0 mt-2 bg-white shadow-lg group-hover:block hover:block hover">
+                <li>
+                <Link to="#" className="block px-4 py-4 text-base text-blue-800 transition-colors duration-200 transform bg-white rounded hover:bg-gray-100">Link 1  </Link>
+                </li>
+                <li>
+                <Link to="#" className="block px-4 py-4 text-base text-blue-800 transition-colors duration-200 transform bg-white rounded hover:bg-gray-100">Link 2 </Link>
+                </li>
+                <li>
+                <Link to="#" className="block px-4 py-4 text-base text-blue-800 transition-colors duration-200 transform bg-white rounded hover:bg-gray-100">Link 3 </Link>
+                </li>
+                <li>
+                <Link to="#" className="block px-4 py-4 text-base text-blue-800 transition-colors duration-200 transform bg-white rounded hover:bg-gray-100">Link 4 </Link>
+                </li>
+                </ul>
 
-            </li>
-            <li className="px-4 lg:order-2">
+            </div>
+            <div className="px-4 py-4 lg:order-2 group">
               <Link
                 to="/service-areas"
                 aria-label="Service Areas"
                 title="Service Areas"
-                className={" tracking-wide" + (scroll ? " text-blue-800" : " text-blue-800") + " transition-colors" + " duration-200" + " hover:text-indigo-300"}
+                className={" tracking-wide" + " text-lg" + (scroll ? " text-blue-800" : " text-blue-800") + " transition-colors" + " duration-200" + " hover:text-indigo-300"}
               >
                 Service Areas
               </Link>
-            </li>
-            <li className="px-4 lg:order-3">
+              <ul className="absolute z-10 hidden w-56 p-0 mt-2 bg-white shadow-lg group-hover:block hover:block hover">
+                <li>
+                <Link to="/san-diego-county/escondido" className="block px-4 py-4 text-base text-blue-800 transition-colors duration-200 transform bg-white rounded hover:bg-gray-100">Escondido </Link>
+                </li>
+
+                <li>
+                <Link to="/san-diego-county/mira-mesa" className="block px-4 py-4 text-base text-blue-800 transition-colors duration-200 transform bg-white rounded hover:bg-gray-100">Mira Mesa</Link>
+                </li>
+                <li>
+                <Link to="/san-diego-county/miramar" className="block px-4 py-4 text-base text-blue-800 transition-colors duration-200 transform bg-white rounded hover:bg-gray-100">Miramar</Link>
+                </li>
+                <li>
+                <Link to="/san-diego-county/oceanside" className="block px-4 py-4 text-base text-blue-800 transition-colors duration-200 transform bg-white rounded hover:bg-gray-100">Oceanside </Link>
+                </li>
+                <li>
+                <Link to="/san-diego-county/poway" className="block px-4 py-4 text-base text-blue-800 transition-colors duration-200 transform bg-white rounded hover:bg-gray-100">Poway </Link>
+                </li>
+                <li>
+                <Link to="/san-diego-county/san-diego" className="block px-4 py-4 text-base text-blue-800 transition-colors duration-200 transform bg-white rounded hover:bg-gray-100">San Diego</Link>
+                </li>
+                <li>
+                <Link to="/san-diego-county/san-marcos" className="block px-4 py-4 text-base text-blue-800 transition-colors duration-200 transform bg-white rounded hover:bg-gray-100">San Marcos</Link>
+                </li>
+                <li>
+                <Link to="/san-diego-county/vista" className="block px-4 py-4 text-base text-blue-800 transition-colors duration-200 transform bg-white rounded hover:bg-gray-100">Vista</Link>
+                </li>
+                </ul>
+            </div>
+            <div className="px-4 py-4 lg:order-3">
               <Link
                 to="/about"
                 aria-label="About us"
                 title="About us"
-                className={" tracking-wide" + (scroll ? " text-blue-800" : " text-blue-800") + " transition-colors" + " duration-200" + " hover:text-indigo-300"}
+                className={" tracking-wide" + " text-lg" + (scroll ? " text-blue-800" : " text-blue-800") + " transition-colors" + " duration-200" + " hover:text-indigo-300"}
               >
                 About Us
               </Link>
-            </li>
-            <li className="px-4 lg:order-4">
+            </div>
+            <div className="px-4 py-4 lg:order-4">
               <Link
                 to="/contact"
                 aria-label="contact"
                 title="contact"
-                className={" tracking-wide" + (scroll ? " text-blue-800" : " text-blue-800") + " transition-colors" + " duration-200" + " hover:text-indigo-300"}
+                className={" tracking-wide" + " text-lg" +  (scroll ? " text-blue-800" : " text-blue-800") + " transition-colors" + " duration-200" + " hover:text-indigo-300"}
               >
                 Contact Us
               </Link>
-            </li>
+            </div>
 
 
-          </ul>
-          <ul className="items-center hidden space-x-8 lg:flex">
-            <li className="px-4">
+          </div>
+          <div className="items-center hidden space-x-8 lg:flex">
+            <div className="px-4 py-4">
               <Link
                 to="/emergency-services"
                 className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white whitespace-no-wrap transition duration-200 rounded shadow-md lg:py-2 lg:px-8 bg-red-accent-700 hover:bg-blue-700 hover:text-gray-100 focus:shadow-outline focus:outline-none"
@@ -141,8 +180,8 @@ const Header = () => {
               >
                 Emergency Services
               </Link>
-            </li>
-          </ul>
+            </div>
+          </div>
           <div className="lg:hidden">
             <button
               aria-label="Open Menu"

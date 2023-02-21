@@ -12,6 +12,7 @@ module.exports = {
       fontFamily: {
         montserrat: ['Montserrat', "sans-serif"],
         raleway: ['Raleway', "sans-serif"],
+        sans: ['Montserrat', "sans-serif"],
       },
       colors: {
         primary: {
@@ -34,6 +35,16 @@ module.exports = {
           'accent-200': '#ff5252',
           'accent-400': '#ff1744',
           'accent-700': '#d50000',
+          "accent2-50": "#fbe6e6",          
+          "accent2-100": "#f7cccc",
+          "accent2-200": "#ee9999",
+          "accent2-300": "#e66666",
+          "accent2-400": "#dd3333",
+          "accent2-500": "#d50000",
+          "accent2-600": "#aa0000",
+          "accent2-700": "#800000",
+          "accent2-800": "#550000",
+          "accent2-900": "#2b0000"
         },
         purple: {
           50: '#f3e5f5',
@@ -321,6 +332,7 @@ module.exports = {
         '28': '7rem',
         '80': '20rem',
         '96': '24rem',
+        
       },
       height: {
         '1/2': '50%',

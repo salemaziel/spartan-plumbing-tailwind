@@ -18,7 +18,7 @@ const HomePage = (props) => {
             <S1Hero
                 bgImage={BG}
                 Title="Quality Plumbing Services You Can Trust"
-                Description="We are a family owned and operated business serving the greater San Diego area. We are licensed, bonded and insured and we offer a wide range of plumbing services for both residential and commercial properties."
+                Description="Serving the greater San Diego area and Temecula, offering a wide range of plumbing services for both residential and commercial properties. "
             />
 
             <S2Intro />

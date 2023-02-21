@@ -6,6 +6,9 @@ import Logo from "../../../images/logo-1-words.png"
 
 import EstimateForm from '../../EstimateForm';
 
+import CallButton from '../../callButton';
+import FormButton from '../../formButton';
+
 const S1Hero = (props) => {
   return (
     <>
@@ -24,9 +27,13 @@ const S1Hero = (props) => {
             </p>
             <p className="mt-4 text-gray-600">{props.BelowButtonText}</p>*/}
           </div>
-          <div className="my-8 lg:w-1/2 md:my-2 lg:-mt-24 lg:mb-8 md:block">
+          <div className="hidden my-8 lg:w-1/2 md:my-2 lg:-mt-24 lg:mb-8 lg:block">
             <EstimateForm />
           </div>
+          <div className="flex flex-row w-full my-8 justify-evenly md:my-2 lg:-mt-24 lg:mb-8 lg:hidden">
+            <CallButton />
+            <FormButton />
+            </div>
         </div>
       </section>
     </>

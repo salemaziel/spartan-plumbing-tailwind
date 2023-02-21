@@ -11,15 +11,15 @@ const ServiceAreas = (props) => {
             />
 
 
-            <section className="py-20 bg-white">
+            <section className="py-16 bg-white">
                 <div className="container px-5 mx-auto">
                     <div className="flex flex-wrap -mx-4 -mb-10 text-center">
-                        <div className="w-full px-4 mb-4 lg:mb-10">
-                            <h2 className="mb-6 text-3xl font-semibold text-gray-800 sm:text-4xl title-font">
+                        <div className="w-full px-5 mb-4 lg:mb-10">
+                            <h2 className="mb-6 text-3xl font-semibold text-blue-900 sm:text-4xl title-font">
                                 Plumbing and Repair Services in {props.cityName}
                             </h2>
-                            <p className="mx-auto text-lg font-medium leading-relaxed text-left text-gray-700 lg:text-center lg:w-2/3">
-                                We're proud to offer a variety of plumbing services in {props.cityName}, California such as general repairs, drain cleaning;, water heater installations, emergency repairs and more. With our expertise in the field combined with our commitment to customer satisfaction makes us the preferred choice for all your plumbing needs!
+                            <p className="mx-auto text-lg leading-relaxed text-left lg:text-center lg:w-2/3">
+                                We're proud to offer a variety of plumbing services in {props.cityName}, California such as general repairs, drain cleaning, water heater installations, emergency repairs and more. With our expertise in the field combined with our commitment to customer satisfaction makes us the preferred choice for all your plumbing needs!
                             </p>
                         </div>
                     </div>
@@ -29,7 +29,7 @@ const ServiceAreas = (props) => {
 
 
             <section className="block p-0 pb-10 m-0 leading-6 text-left" style={{ listStyle: 'none' }}>
-                <div className="container w-full px-4 py-10 mx-auto my-0 leading-6 " style={{ listStyle: 'none' }}>
+                <div className="container w-full px-0 py-10 mx-auto my-0 leading-6 " style={{ listStyle: 'none' }}>
                     <div className="flex flex-row flex-wrap justify-center p-0 my-0 text-left" style={{ listStyle: 'none' }}>
                         <div className='w-full lg:w-1/3'>
                             <div className="relative flex-grow-0 flex-shrink-0 w-full h-full max-w-full px-4 py-0 m-0 leading-6 text-left align-middle lg:flex-shrink-0 lg:flex-grow-0 basis-full ">
@@ -41,9 +41,9 @@ const ServiceAreas = (props) => {
 
 
                         <div className="w-full lg:w-2/3">
-                            <div className="relative flex-grow w-full max-w-full px-4 py-0 mx-auto my-0 basis-0" style={{ listStyle: 'none' }}>
+                            <div className="relative flex-grow w-full max-w-full px-5 py-0 mx-auto my-6 lg:my-0 basis-0" style={{ listStyle: 'none' }}>
                                 <article className="block p-0 mx-auto lg:px-4 " >
-                                    <h3 className="p-0 mx-0 mt-0 mb-2 text-3xl font-semibold text-center text-gray-800" style={{ listStyle: 'none' }}>
+                                    <h3 className="p-0 py-6 mx-0 mt-0 mb-2 text-3xl font-semibold text-center text-blue-900" style={{ listStyle: 'none' }}>
                                         What Spartan Plumbing and Drain Can Do For You
                                     </h3>
                                     <p className="mx-auto mb-8 text-lg leading-relaxed text-left" style={{ listStyle: 'none' }}>
@@ -72,9 +72,9 @@ const ServiceAreas = (props) => {
 
 
                         <div className="order-2 w-full lg:w-3/5 lg:order-1">
-                            <div className="relative flex-grow w-full max-w-full px-4 py-0 mx-auto my-0 basis-0" style={{ listStyle: 'none' }}>
+                            <div className="relative flex-grow w-full max-w-full px-5 py-0 mx-auto my-6 lg:my-0 basis-0" style={{ listStyle: 'none' }}>
                                 <article className="block p-0 mx-auto lg:px-4 " >
-                                    <h3 className="p-0 mx-0 mt-0 mb-2 text-3xl font-semibold text-center text-gray-800" style={{ listStyle: 'none' }}>
+                                    <h3 className="p-0 py-6 mx-0 mt-0 mb-2 text-3xl font-semibold text-center text-blue-900" style={{ listStyle: 'none' }}>
                                         Our Promise
                                     </h3>
                                     <p className="mx-auto mb-8 text-lg leading-relaxed text-left" style={{ listStyle: 'none' }}>
