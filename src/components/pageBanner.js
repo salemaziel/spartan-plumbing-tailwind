@@ -12,7 +12,7 @@ const PageBanner = (props) => {
                 className="absolute inset-0 object-cover w-full h-full"
                 alt=""
             />
-            <div className="relative bg-opacity-75 pb-28 bg-blue-accent-700">
+            <div className="relative bg-blue-800 bg-opacity-75 pb-28">
                 <svg
                     className="absolute inset-x-0 text-white"
                     viewBox="0 0 1160 163"

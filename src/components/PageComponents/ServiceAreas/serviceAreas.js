@@ -34,7 +34,7 @@ const ServiceAreas = (props) => {
                         <div className='w-full lg:w-1/3'>
                             <div className="relative flex-grow-0 flex-shrink-0 w-full h-full max-w-full px-4 py-0 m-0 leading-6 text-left align-middle lg:flex-shrink-0 lg:flex-grow-0 basis-full ">
                                 <iframe /*src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106912.80240572542!2d-117.14001754748739!3d33.134705805055646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dbf35e81c2437b%3A0x1d1c80f7796c5df!2sEscondido%2C%20CA!5e0!3m2!1sen!2sus!4v1611893579282!5m2!1sen!2sus"*/
-                                src={props.cityURL} width="auto" height frameBorder={0} allowFullScreen aria-hidden="false" tabIndex={0} samesite="Secure" className="w-full h-full p-0 mx-0 mt-0 mb-6 leading-6 border-0 md:w-full" style={{ border: 0 }} />
+                                    src={props.cityURL} width="auto" height frameBorder={0} allowFullScreen aria-hidden="false" tabIndex={0} samesite="Secure" className="w-full h-full p-0 mx-0 mt-0 mb-6 leading-6 border-0 md:w-full" style={{ border: 0 }} />
                             </div>
 
                         </div>

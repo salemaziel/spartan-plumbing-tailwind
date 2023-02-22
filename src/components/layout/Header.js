@@ -94,18 +94,42 @@ const Header = () => {
               >
                 Services
               </Link>
-                <ul className="absolute z-10 hidden w-56 p-0 mt-2 bg-white shadow-lg group-hover:block hover:block hover">
+                <ul className="absolute z-10 hidden w-1/3 p-0 mt-4 rounded-lg shadow-lg bg-logo-blue-500 group-hover:block hover:block hover">
                 <li>
-                <Link to="#" className="block px-4 py-4 text-base text-blue-800 transition-colors duration-200 transform bg-white rounded hover:bg-gray-100">Link 1  </Link>
+                <Link to="/services/" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Plumbing Installations and Repairs</Link>
                 </li>
                 <li>
-                <Link to="#" className="block px-4 py-4 text-base text-blue-800 transition-colors duration-200 transform bg-white rounded hover:bg-gray-100">Link 2 </Link>
+                <Link to="/services/" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Leak Detection and Prevention</Link>
                 </li>
                 <li>
-                <Link to="#" className="block px-4 py-4 text-base text-blue-800 transition-colors duration-200 transform bg-white rounded hover:bg-gray-100">Link 3 </Link>
+                <Link to="/services/" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Water Heater Installation and Repair</Link>
                 </li>
                 <li>
-                <Link to="#" className="block px-4 py-4 text-base text-blue-800 transition-colors duration-200 transform bg-white rounded hover:bg-gray-100">Link 4 </Link>
+                <Link to="/services/" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Drain Cleaning and Pipe Repairs</Link>
+                </li>
+                <li>
+                <Link to="/services/" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Bathroom and Kitchen Plumbing Services</Link>
+                </li>
+                <li>
+                <Link to="/services/" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Gas Line Repairs and Installations</Link>
+                </li>
+                <li>
+                <Link to="/services/" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Sump Pump Installation and Repair</Link>
+                </li>
+                <li>
+                <Link to="/services/" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Sewer Line Installation, Cleaning and Replacements</Link>
+                </li>
+                <li>
+                <Link to="/services/" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Water Treatment and Filtration Systems</Link>
+                </li>
+                <li>
+                <Link to="/services/" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Plumbing Maintenance and Inspections</Link>
+                </li>
+                <li>
+                <Link to="/services/" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Commercial Plumbing Services</Link>
+                </li>
+                <li>
+                <Link to="/services/" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Emergency Plumbing Services</Link>
                 </li>
                 </ul>
 
@@ -119,31 +143,31 @@ const Header = () => {
               >
                 Service Areas
               </Link>
-              <ul className="absolute z-10 hidden w-56 p-0 mt-2 bg-white shadow-lg group-hover:block hover:block hover">
+              <ul className="absolute z-10 hidden w-56 p-0 mt-4 shadow-lg bg-logo-blue-500 group-hover:block hover:block hover">
                 <li>
-                <Link to="/san-diego-county/escondido" className="block px-4 py-4 text-base text-blue-800 transition-colors duration-200 transform bg-white rounded hover:bg-gray-100">Escondido </Link>
+                <Link to="/san-diego-county/escondido" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Escondido </Link>
                 </li>
 
                 <li>
-                <Link to="/san-diego-county/mira-mesa" className="block px-4 py-4 text-base text-blue-800 transition-colors duration-200 transform bg-white rounded hover:bg-gray-100">Mira Mesa</Link>
+                <Link to="/san-diego-county/mira-mesa" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Mira Mesa</Link>
                 </li>
                 <li>
-                <Link to="/san-diego-county/miramar" className="block px-4 py-4 text-base text-blue-800 transition-colors duration-200 transform bg-white rounded hover:bg-gray-100">Miramar</Link>
+                <Link to="/san-diego-county/miramar" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Miramar</Link>
                 </li>
                 <li>
-                <Link to="/san-diego-county/oceanside" className="block px-4 py-4 text-base text-blue-800 transition-colors duration-200 transform bg-white rounded hover:bg-gray-100">Oceanside </Link>
+                <Link to="/san-diego-county/oceanside" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Oceanside </Link>
                 </li>
                 <li>
-                <Link to="/san-diego-county/poway" className="block px-4 py-4 text-base text-blue-800 transition-colors duration-200 transform bg-white rounded hover:bg-gray-100">Poway </Link>
+                <Link to="/san-diego-county/poway" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Poway </Link>
                 </li>
                 <li>
-                <Link to="/san-diego-county/san-diego" className="block px-4 py-4 text-base text-blue-800 transition-colors duration-200 transform bg-white rounded hover:bg-gray-100">San Diego</Link>
+                <Link to="/san-diego-county/san-diego" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">San Diego</Link>
                 </li>
                 <li>
-                <Link to="/san-diego-county/san-marcos" className="block px-4 py-4 text-base text-blue-800 transition-colors duration-200 transform bg-white rounded hover:bg-gray-100">San Marcos</Link>
+                <Link to="/san-diego-county/san-marcos" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">San Marcos</Link>
                 </li>
                 <li>
-                <Link to="/san-diego-county/vista" className="block px-4 py-4 text-base text-blue-800 transition-colors duration-200 transform bg-white rounded hover:bg-gray-100">Vista</Link>
+                <Link to="/san-diego-county/vista" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Vista</Link>
                 </li>
                 </ul>
             </div>
