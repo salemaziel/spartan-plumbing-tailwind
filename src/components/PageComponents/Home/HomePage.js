@@ -33,15 +33,6 @@ const HomePage = (props) => {
             {/*<S6FAQ />*/}
 
 
-            <S7CTA
-                Title="Ready to grow your business?"
-                CTALine1="Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus
-        in."
-                CTALine2="Contact us to schedule your estimate today"
-                Button1Text="Get Started"
-            />
-
-
 
 
         </>
