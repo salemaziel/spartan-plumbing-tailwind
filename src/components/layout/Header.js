@@ -96,40 +96,40 @@ const Header = () => {
               </Link>
                 <ul className="absolute z-10 hidden w-1/3 p-0 mt-4 rounded-lg shadow-lg bg-logo-blue-500 group-hover:block hover:block hover">
                 <li>
-                <Link to="/services/" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Plumbing Installations and Repairs</Link>
+                <Link to="/services/plumbing-installation-and-repairs" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Plumbing Installations and Repairs</Link>
                 </li>
                 <li>
-                <Link to="/services/" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Leak Detection and Prevention</Link>
+                <Link to="/services/leak-detection-and-prevention" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Leak Detection and Prevention</Link>
                 </li>
                 <li>
-                <Link to="/services/" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Water Heater Installation and Repair</Link>
+                <Link to="/services/water-heater-installations" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Water Heater Installation and Repair</Link>
                 </li>
                 <li>
-                <Link to="/services/" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Drain Cleaning and Pipe Repairs</Link>
+                <Link to="/services/drain-cleaning-and-pipe-repair" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Drain Cleaning and Pipe Repairs</Link>
                 </li>
                 <li>
-                <Link to="/services/" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Bathroom and Kitchen Plumbing Services</Link>
+                <Link to="/services/bathroom-kitchen-plumbing" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Bathroom and Kitchen Plumbing Services</Link>
                 </li>
                 <li>
-                <Link to="/services/" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Gas Line Repairs and Installations</Link>
+                <Link to="/services/gas-line-repairs-installations" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Gas Line Repairs and Installations</Link>
                 </li>
                 <li>
-                <Link to="/services/" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Sump Pump Installation and Repair</Link>
+                <Link to="/services/sump-pump-installations-repairs" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Sump Pump Installation and Repair</Link>
                 </li>
                 <li>
-                <Link to="/services/" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Sewer Line Installation, Cleaning and Replacements</Link>
+                <Link to="/services/sewer-line-installs-repairs-replacements" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Sewer Line Installation, Cleaning and Replacements</Link>
                 </li>
                 <li>
-                <Link to="/services/" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Water Treatment and Filtration Systems</Link>
+                <Link to="/services/water-treatment-filtration-systems" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Water Treatment and Filtration Systems</Link>
                 </li>
                 <li>
-                <Link to="/services/" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Plumbing Maintenance and Inspections</Link>
+                <Link to="/services/maintenance-and-inspections" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Plumbing Maintenance and Inspections</Link>
                 </li>
                 <li>
-                <Link to="/services/" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Commercial Plumbing Services</Link>
+                <Link to="/services/commercial-plumbing" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Commercial Plumbing Services</Link>
                 </li>
                 <li>
-                <Link to="/services/" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Emergency Plumbing Services</Link>
+                <Link to="/services/emergency-plumbing-services" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Emergency Plumbing Services</Link>
                 </li>
                 </ul>
 
