@@ -32,7 +32,9 @@ const S1Hero = (props) => {
           </div>
           <div className="flex flex-row w-full my-8 justify-evenly md:my-2 lg:-mt-24 lg:mb-8 lg:hidden">
             <CallButton />
-            <FormButton />
+            <FormButton
+            color="bg-logo-blue-500"
+             />
             </div>
         </div>
       </section>

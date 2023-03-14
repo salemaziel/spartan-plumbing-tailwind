@@ -7,7 +7,7 @@ import FormButton from './formButton';
 const CTA = (props) => {
   return (
     <>
-      <section className="w-full py-24 mt-10 text-center bg-blue-700">
+      <section className="w-full py-24 mt-10 text-center bg-blue-800">
         {/*<h3 className="text-5xl font-semibold">{props.Title}</h3>
         <p className="mt-8 text-xl font-light">
             {props.Description}

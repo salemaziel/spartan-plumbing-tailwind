@@ -17,7 +17,7 @@ const FormButton = (props) => {
                     <div role="alert" className="container relative z-20 w-11/12 max-w-lg mx-auto md:w-2/3">
                         <div className="p-4 bg-gray-100 border border-gray-400 rounded shadow-md md:p-8 dark:bg-gray-800 dark:border-gray-700">
                             <EstimateForm />
-                            <div className="absolute top-0 right-0 mt-4 mr-5 text-gray-800 transition duration-150 ease-in-out cursor-pointer hover:text-gray-600 dark:text-gray-400" onClick={()=>showModal(!modal)}>
+                            <div className="absolute top-0 right-0 z-20 mt-4 mr-5 text-gray-800 transition duration-150 ease-in-out cursor-pointer hover:text-gray-600 dark:text-gray-400" onClick={()=>showModal(!modal)}>
                                 <svg xmlns="http://www.w3.org/2000/svg" aria-label="Close" className="icon icon-tabler icon-tabler-x" width={20} height={20} viewBox="0 0 24 24" strokeWidth="2.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                     <path stroke="none" d="M0 0h24v24H0z" />
                                     <line x1={18} y1={6} x2={6} y2={18} />

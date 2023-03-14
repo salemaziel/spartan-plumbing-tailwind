@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useCallback } from 'react'
 import {
   FaFacebookF,
   FaTwitter,
@@ -15,10 +15,21 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scroll, setScroll] = useState(false);
 
-  useEffect(() => {
+/*  useEffect(() => {
     window.addEventListener("scroll", () => {
       setScroll(window.scrollY > 60);
     });
+  }, []);
+*/
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+  
+  const handleScroll = useCallback(() => {
+    setScroll(window.scrollY > 60);
   }, []);
 
 
@@ -198,7 +209,7 @@ const Header = () => {
             <div className="px-4 py-4">
               <Link
                 to="/emergency-services"
-                className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white whitespace-no-wrap transition duration-200 rounded shadow-md lg:py-2 lg:px-8 bg-red-accent-700 hover:bg-blue-700 hover:text-gray-100 focus:shadow-outline focus:outline-none"
+                className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white whitespace-no-wrap transition duration-200 rounded shadow-md lg:py-2 lg:px-8 bg-red-accent-700 hover:bg-blue-800 hover:text-gray-100 focus:shadow-outline focus:outline-none"
                 aria-label="Emergency Services"
                 title="Emergency Services"
               >
