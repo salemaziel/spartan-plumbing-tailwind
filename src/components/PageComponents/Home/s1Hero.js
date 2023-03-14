@@ -9,6 +9,8 @@ import EstimateForm from '../../EstimateForm';
 import CallButton from '../../callButton';
 import FormButton from '../../formButton';
 
+import { Fade } from 'react-awesome-reveal';
+
 const S1Hero = (props) => {
   return (
     <>
@@ -17,7 +19,8 @@ const S1Hero = (props) => {
         <div className="items-center justify-center block w-full mx-auto lg:hidden">
           <img src={Logo} alt="logo" className="mx-auto mb-8 w-80 lg:mb-0" />
         </div>
-          <div className="pb-8 mb-4 text-center lg:text-left lg:w-1/2">
+       
+          <div className="pb-8 mb-4 text-center animate-fade-in-fwd lg:text-left lg:w-1/2">
             <h1 className="text-3xl font-bold leading-relaxed text-gray-300 text-shadow-xl lg:text-5xl xl:text-6xl">
               {props.Title}
             </h1>
@@ -27,7 +30,8 @@ const S1Hero = (props) => {
             </p>
             <p className="mt-4 text-gray-600">{props.BelowButtonText}</p>*/}
           </div>
-          <div className="hidden my-8 lg:w-1/2 md:my-2 lg:-mt-24 lg:mb-8 lg:block">
+       
+          <div className="hidden my-8 animate-fade-in-fwd lg:w-1/2 md:my-2 lg:-mt-24 lg:mb-8 lg:block">
             <EstimateForm />
           </div>
           <div className="flex flex-row w-full my-8 justify-evenly md:my-2 lg:-mt-24 lg:mb-8 lg:hidden">

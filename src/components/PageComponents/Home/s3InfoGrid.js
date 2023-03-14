@@ -2,19 +2,21 @@ import * as React from 'react';
 
 import { Link } from 'gatsby';
 
+import { Fade, Slide,  } from 'react-awesome-reveal';
+
 const S3InfoGrid = (props) => {
   return (
     <>
 <section className="text-gray-600 body-font">
   <div className="container px-5 py-12 mx-auto lg:py-10">
     <div className="flex flex-col w-full mb-12 text-left lg:text-center">
-      <h1 className="mb-6 text-3xl font-semibold tracking-tighter text-blue-900 md:text-4xl title-font ">Our Services</h1>
-      <p className="mx-auto my-4 text-xl font-medium leading-relaxed text-gray-700 lg:w-2/3">We understand how important it is for you that any work done in your home meets high standards both in terms of quality materials used and craftsmanship applied when completing projects. That’s why at Spartan Plumbing & Drain we only use top quality tools from trusted brands with an eye towards ensuring long lasting results every time — guaranteed! </p>
-      <p className="mx-auto my-4 text-xl font-medium leading-relaxed text-gray-700 lg:w-2/3">No matter what your issue may be, our experienced team of plumbers is dedicated to providing top-notch service for all your plumbing needs.  </p>
+      <h1 className="mb-6 text-3xl font-semibold tracking-tighter text-blue-900 animate-fade-in-bottom md:text-4xl title-font ">Our Services</h1>
+      <p className="mx-auto my-4 text-xl font-medium leading-relaxed text-gray-700 animate-fade-in-bottom lg:w-2/3">We understand how important it is for you that any work done in your home meets high standards both in terms of quality materials used and craftsmanship applied when completing projects. That’s why at Spartan Plumbing & Drain we only use top quality tools from trusted brands with an eye towards ensuring long lasting results every time — guaranteed! </p>
+      <p className="mx-auto my-4 text-xl font-medium leading-relaxed text-gray-700 animate-fade-in-bottom lg:w-2/3">No matter what your issue may be, our experienced team of plumbers is dedicated to providing top-notch service for all your plumbing needs.  </p>
       </div>
 
+<div className="grid grid-cols-2 gap-4 mb-4 sm:grid-cols-3 md:grid-cols-4 md:gap-6 xl:gap-8 md:mb-8 animate-fade-in-bottom">
 
-<div className="grid grid-cols-2 gap-4 mb-4 sm:grid-cols-3 md:grid-cols-4 md:gap-6 xl:gap-8 md:mb-8">
   {/* image - start */}
   <Link to="/services/plumbing-installation-and-repairs" className="relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80">
     <img src="https://cdn.pixabay.com/photo/2017/09/26/11/10/plumber-2788330_960_720.jpg?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Minh Pham" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />

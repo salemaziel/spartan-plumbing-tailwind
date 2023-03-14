@@ -9,6 +9,32 @@ module.exports = {
       center: true,
     },
     extend: {
+      animation: {
+        "fade-in-fwd": "fade-in-fwd 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.3s both",
+        "fade-in-bottom": "fade-in-bottom 1s ease-in-out 1s  both"
+    },
+    keyframes: {
+        "fade-in-fwd": {
+            "0%": {
+                transform: "translateZ(-80px)",
+                opacity: "0"
+            },
+            to: {
+                transform: "translateZ(0)",
+                opacity: "1"
+            }
+        },
+        "fade-in-bottom": {
+          "0%": {
+              transform: "translateY(50px)",
+              opacity: "0"
+          },
+          to: {
+              transform: "translateY(0)",
+              opacity: "1"
+          }
+      }
+    },
       fontFamily: {
         montserrat: ['Montserrat', "sans-serif"],
         raleway: ['Raleway', "sans-serif"],
