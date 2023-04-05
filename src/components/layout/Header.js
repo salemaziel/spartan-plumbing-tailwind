@@ -172,6 +172,9 @@ const Header = () => {
                 <Link to="/san-diego-county/poway" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Poway </Link>
                 </li>
                 <li>
+                <Link to="/san-diego-county/rancho-bernardo" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Rancho Bernardo</Link>
+                </li>
+                <li>
                 <Link to="/san-diego-county/san-diego" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">San Diego</Link>
                 </li>
                 <li>
