@@ -1,5 +1,5 @@
-import React, { useState, useEffect  } from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
+/*import React, { useState, useEffect  } from 'react';
+//import AnchorLink from 'react-anchor-link-smooth-scroll';
 import LogoIcon from '../../svg/LogoIcon';
 import Button from '../Button';
 
@@ -17,7 +17,7 @@ const Header = () => {
 
   return(
   <header 
-  /*className="sticky top-0 bg-white shadow" */
+  /*className="sticky top-0 bg-white shadow" * /
   className={
     "sticky" + " top-0" + " transition-all" + " ease-out" + " duration-300" + (scroll ? ` bgNav` : " bg-transparent") + (scroll ? " shadow" : "" ) + (scroll ? ` visible` : "")
   }
@@ -53,3 +53,4 @@ const Header = () => {
 );
 }
 export default Header;
+*/

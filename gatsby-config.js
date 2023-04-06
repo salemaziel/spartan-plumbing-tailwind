@@ -27,20 +27,23 @@ module.exports = {
       resolve: `gatsby-plugin-react-helmet-async`,
     },
     {
-      resolve: `gatsby-plugin-advanced-sitemap`,
-      options: {
-          // The filepath and name to Index Sitemap. Defaults to '/sitemap.xml'.
-          output: "/sitemap.xml",
-          exclude: [
-              `/dev-404-page`,
-              `/404`,
-              `/404.html`,
-              `/offline-plugin-app-shell-fallback`,
+      resolve: `gatsby-plugin-sitemap`,
+    },
+//    {
+//      resolve: `gatsby-plugin-advanced-sitemap`,
+//      options: {
+//          // The filepath and name to Index Sitemap. Defaults to '/sitemap.xml'.
+//          output: "/sitemap.xml",
+//          exclude: [
+//              `/dev-404-page`,
+//              `/404`,
+//              `/404.html`,
+//              `/offline-plugin-app-shell-fallback`,
 //              `/my-excluded-page`,
 //              /(\/)?hash-\S*/, // you can also pass valid RegExp to exclude internal tags for example
-          ],
-          createLinkInHead: true, // optional: create a link in the `<head>` of your site
-          addUncaughtPages: true, // optional: will fill up pages that are not caught by queries and mapping and list them under `sitemap-pages.xml`
+//          ],
+//          createLinkInHead: true, // optional: create a link in the `<head>` of your site
+//          addUncaughtPages: true, // optional: will fill up pages that are not caught by queries and mapping and list them under `sitemap-pages.xml`
 //          additionalSitemaps: [ // optional: add additional sitemaps, which are e. g. generated somewhere else, but need to be indexed for this domain
 //              {
 //                  name: `my-other-posts`,
@@ -50,8 +53,8 @@ module.exports = {
 //                  url: `https://example.com/sitemap.xml`,
 //              },
 //          ],
-      }
-  },
+//      }
+//  },
 {
       resolve: `gatsby-plugin-netlify`,
       options: {
