@@ -2,13 +2,28 @@ import * as React from 'react';
 
 import { Link } from 'gatsby';
 
-import { StaticImage } from 'gatsby-plugin-image';
+//import { StaticImage } from 'gatsby-plugin-image';
 
-import Kitchen from '../../../images/mixer-tap-tap-water-fa...t-kitchen-413745.jpg'
+//import Kitchen from '../../../images/mixer-tap-tap-water-fa...t-kitchen-413745.jpg'
 
-import GasLine from '../../../images/kyle-glenn-Qo4gei6NvcQ-unsplash.jpg'
+//import GasLine from '../../../images/kyle-glenn-Qo4gei6NvcQ-unsplash.jpg'
 
-import { Fade, Slide,  } from 'react-awesome-reveal';
+
+import KitchenSink from '../../../images/2023/kitchen-sink.jpg'
+import SewerPipes from '../../../images/2023/sewer-pipes.jpg'
+import WaterFiltration from '../../../images/2023/under-sink-water-filtration.jpg'
+import Emergency from '../../../images/2023/emergency-leak.jpg'
+//import ResGasLines from '../../../images/2023/residential-gas-water-lines.jpg'
+import GasLineWaterHeater from '../../../images/2023/gasline-propane-waterheater.jpg'
+import Inspection1 from '../../../images/2023/inspection-clipboard.jpg'
+import PipeRepair from '../../../images/2023/pipe-repair.jpg'
+import Commercial from '../../../images/2023/big-pipe-commercial.jpg'
+import LeakingTap from '../../../images/2023/leaking-tap.jpg'
+import SumpPump from '../../../images/2023/sump-pump.jpg'
+import WaterHeater from '../../../images/2023/water-heater.jpg'
+import PlumbingServices from '../../../images/2023/plumbing-services.jpg'
+
+//import { Fade, Slide,  } from 'react-awesome-reveal';
 
 const S3InfoGrid = (props) => {
   return (
@@ -25,28 +40,28 @@ const S3InfoGrid = (props) => {
 
   {/* image - start */}
   <Link to="/services/plumbing-installation-and-repairs" className="relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80">
-    <img src="https://cdn.pixabay.com/photo/2017/09/26/11/10/plumber-2788330_960_720.jpg?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Minh Pham" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />
+    <img src={PlumbingServices} loading="lazy" alt="Plumbing Installation and Repair" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />
     <div className="absolute inset-0 opacity-50 pointer-events-none bg-gradient-to-t from-gray-800 via-transparent to-transparent" />
     <span className="relative inline-block mb-3 ml-4 text-sm text-white md:text-lg md:ml-5">Plumbing Installations &amp; Repairs</span>
   </Link>
   {/* image - end */}
   {/* image - start */}
   <Link to="/services/water-heater-installations" className="relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80">
-    <img src="https://plus.unsplash.com/premium_photo-1661301068444-8ac48208d017?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Magicle" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />
+    <img src={WaterHeater} loading="lazy" alt="Water Heater Installation" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />
     <div className="absolute inset-0 opacity-50 pointer-events-none bg-gradient-to-t from-gray-800 via-transparent to-transparent" />
     <span className="relative inline-block mb-3 ml-4 text-sm text-white md:text-lg md:ml-5">Water Heater Installations</span>
   </Link>
   {/* image - end */}
   {/* image - start */}
   <Link to="/services/drain-cleaning-and-pipe-repair" className="relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80">
-    <img src="https://cdn.pixabay.com/photo/2016/07/07/15/23/basin-1502544_960_720.jpg?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Martin Sanchez" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />
+    <img src={PipeRepair} loading="lazy" alt="Drain Cleaning and Pipe Repair" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />
     <div className="absolute inset-0 opacity-50 pointer-events-none bg-gradient-to-t from-gray-800 via-transparent to-transparent" />
     <span className="relative inline-block mb-3 ml-4 text-sm text-white md:text-lg md:ml-5">Drain Cleaning &amp; Pipe Repair</span>
   </Link>
   {/* image - end */}
   {/* image - start */}
   <Link to="/services/leak-detection-and-prevention" className="relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80">
-    <img src="https://cdn.pixabay.com/photo/2020/12/24/14/15/leaking-tap-5857559_960_720.jpg?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Lorenzo Herrera" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />
+    <img src={LeakingTap} loading="lazy" alt="Leak Detection and Repair" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />
     <div className="absolute inset-0 opacity-50 pointer-events-none bg-gradient-to-t from-gray-800 via-transparent to-transparent" />
     <span className="relative inline-block mb-3 ml-4 text-sm text-white md:text-lg md:ml-5">Leak Detection &amp; Prevention</span>
   </Link>
@@ -55,28 +70,28 @@ const S3InfoGrid = (props) => {
 <div className="grid grid-cols-2 gap-4 mb-4 sm:grid-cols-3 md:grid-cols-4 md:gap-6 xl:gap-8 md:mb-8">*/}
   {/* image - start */}
   <Link to="/services/bathroom-kitchen-plumbing" className="relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80">
-    <img src={Kitchen} loading="lazy" alt="Photo by Minh Pham" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />
+    <img src={KitchenSink} loading="lazy" alt="Bathroom and Kitchen Sink Plumbing" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />
     <div className="absolute inset-0 opacity-50 pointer-events-none bg-gradient-to-t from-gray-800 via-transparent to-transparent" />
     <span className="relative inline-block mb-3 ml-4 text-sm text-white md:text-lg md:ml-5">Bathroom &amp; Kitchen Plumbing</span>
   </Link>
   {/* image - end */}
   {/* image - start */}
   <Link to="/services/gas-line-repairs-installations" className="relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80">
-    <img src={GasLine} loading="lazy" alt="Photo by Magicle" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />
+    <img src={GasLineWaterHeater} loading="lazy" alt="Gas Line Installation and Repair" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />
     <div className="absolute inset-0 opacity-50 pointer-events-none bg-gradient-to-t from-gray-800 via-transparent to-transparent" />
     <span className="relative inline-block mb-3 ml-4 text-sm text-white md:text-lg md:ml-5">Gas Line Repairs &amp; Installations</span>
   </Link>
   {/* image - end */}
   {/* image - start */}
-  <Link to="/services/drain-cleaning-and-pipe-repair" className="relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80">
-    <img src="https://cdn.pixabay.com/photo/2016/07/07/15/23/basin-1502544_960_720.jpg?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Martin Sanchez" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />
+  <Link to="/services/sump-pump-installations-repairs" className="relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80">
+    <img src={SumpPump} loading="lazy" alt="Sump Pump Install and Repair" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />
     <div className="absolute inset-0 opacity-50 pointer-events-none bg-gradient-to-t from-gray-800 via-transparent to-transparent" />
     <span className="relative inline-block mb-3 ml-4 text-sm text-white md:text-lg md:ml-5">Sump Pump Installation &amp; Repair</span>
   </Link>
   {/* image - end */}
   {/* image - start */}
-  <Link to="/services/leak-detection-and-prevention" className="relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80">
-    <img src="https://cdn.pixabay.com/photo/2020/12/24/14/15/leaking-tap-5857559_960_720.jpg?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Lorenzo Herrera" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />
+  <Link to="/services/sewer-line-installs-repairs-replacements" className="relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80">
+    <img src={SewerPipes} loading="lazy" alt="Sewer Line Installations" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />
     <div className="absolute inset-0 opacity-50 pointer-events-none bg-gradient-to-t from-gray-800 via-transparent to-transparent" />
     <span className="relative inline-block mb-3 ml-4 text-sm text-white md:text-lg md:ml-5">Sewer Line Installations</span>
   </Link>
@@ -84,29 +99,29 @@ const S3InfoGrid = (props) => {
 {/*</div>
 <div className="grid grid-cols-2 gap-4 mb-4 sm:grid-cols-3 md:grid-cols-4 md:gap-6 xl:gap-8 md:mb-8">*/}
   {/* image - start */}
-  <Link to="/services/plumbing-installation-and-repairs" className="relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80">
-    <img src="https://cdn.pixabay.com/photo/2017/09/26/11/10/plumber-2788330_960_720.jpg?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Minh Pham" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />
+  <Link to="/services/water-treatment-filtration-systems" className="relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80">
+    <img src={WaterFiltration} loading="lazy" alt="water filtration system" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />
     <div className="absolute inset-0 opacity-50 pointer-events-none bg-gradient-to-t from-gray-800 via-transparent to-transparent" />
     <span className="relative inline-block mb-3 ml-4 text-sm text-white md:text-lg md:ml-5">Water Treatment &amp; Filtration Systems</span>
   </Link>
   {/* image - end */}
   {/* image - start */}
-  <Link to="/services/water-heater-installations" className="relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80">
-    <img src="https://plus.unsplash.com/premium_photo-1661301068444-8ac48208d017?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Magicle" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />
+  <Link to="/services/maintenance-and-inspections" className="relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80">
+    <img src={Inspection1} loading="lazy" alt="Plumbing Maintenance and Inspections" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />
     <div className="absolute inset-0 opacity-50 pointer-events-none bg-gradient-to-t from-gray-800 via-transparent to-transparent" />
     <span className="relative inline-block mb-3 ml-4 text-sm text-white md:text-lg md:ml-5">Maintenance &amp; Inspections</span>
   </Link>
   {/* image - end */}
   {/* image - start */}
-  <Link to="/services/drain-cleaning-and-pipe-repair" className="relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80">
-    <img src="https://cdn.pixabay.com/photo/2016/07/07/15/23/basin-1502544_960_720.jpg?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Martin Sanchez" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />
+  <Link to="/services/commercial-plumbing" className="relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80">
+    <img src={Commercial} loading="lazy" alt="Commercial Plumbing" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />
     <div className="absolute inset-0 opacity-50 pointer-events-none bg-gradient-to-t from-gray-800 via-transparent to-transparent" />
     <span className="relative inline-block mb-3 ml-4 text-sm text-white md:text-lg md:ml-5">Commercial Plumbing Services</span>
   </Link>
   {/* image - end */}
   {/* image - start */}
-  <Link to="/services/leak-detection-and-prevention" className="relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80">
-    <img src="https://cdn.pixabay.com/photo/2020/12/24/14/15/leaking-tap-5857559_960_720.jpg?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Lorenzo Herrera" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />
+  <Link to="/services/emergency-plumbing-services" className="relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80">
+    <img src={Emergency} loading="lazy" alt="Emergency Plumbing Services" className="absolute inset-0 object-cover object-center w-full h-full transition duration-200 group-hover:scale-110" />
     <div className="absolute inset-0 opacity-50 pointer-events-none bg-gradient-to-t from-gray-800 via-transparent to-transparent" />
     <span className="relative inline-block mb-3 ml-4 text-sm text-white md:text-lg md:ml-5">Emergency Plumbing Services</span>
   </Link>

@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+import ShakingHands from '../../../images/2023/shaking-hands.jpg';
+
 const S2Intro = (props) => {
   return (
     <>
@@ -17,8 +19,8 @@ const S2Intro = (props) => {
       
 
     </div>
-    <div className="w-5/6 align-top animate-fade-in-bottom lg:max-w-lg lg:w-full md:w-1/2">
-      <img className="object-cover object-center rounded-lg " alt="hero" src="https://cdn.pixabay.com/photo/2015/05/31/11/24/tap-791172_960_720.jpg?auto=format&q=75&fit=crop&w=720" />
+    <div className="w-full align-top animate-fade-in-bottom lg:max-w-xl lg:w-full md:w-1/2">
+      <img className="object-cover object-center rounded-lg" src={ShakingHands} alt="Plumbering Shaking Hands with Customer" />
     </div>
   </div>
 </section>

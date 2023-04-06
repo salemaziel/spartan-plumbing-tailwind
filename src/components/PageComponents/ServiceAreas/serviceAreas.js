@@ -1,6 +1,8 @@
 import * as React from 'react';
 import PageBanner from '../../pageBanner';
 
+import ShakingHands from '../../../images/2023/shaking-hands.jpg';
+
 import { Link } from 'gatsby';
 
 const ServiceAreas = (props) => {
@@ -65,7 +67,7 @@ const ServiceAreas = (props) => {
                     <div className="flex flex-row flex-wrap justify-center p-0 my-0 text-left" style={{ listStyle: 'none' }}>
                         <div className='order-1 w-full lg:w-2/5 lg:order-2'>
                             <div className="relative flex-grow-0 flex-shrink-0 w-full h-full max-w-full px-4 py-0 m-0 leading-6 text-left align-middle lg:flex-shrink-0 lg:flex-grow-0 basis-full ">
-                                <img src="https://dummyimage.com/560x500" alt width="auto" height className="object-cover w-full h-full p-0 mx-0 mt-0 mb-6 leading-6 border-0 rounded-lg md:w-full" />
+                                <img src={ShakingHands} alt width="auto" height className="object-cover w-full h-full p-0 mx-0 mt-0 mb-6 leading-6 border-0 rounded-lg md:w-full" />
                             </div>
 
                         </div>
