@@ -2,6 +2,7 @@ import * as React from 'react'
 import Layout from '../components/layout/Layout'
 
 import ServicesPage from "../components/PageComponents/Services/ServicesPage"
+import Seo from '../components/seo';
 
 const Services = () => (
         <Layout>
