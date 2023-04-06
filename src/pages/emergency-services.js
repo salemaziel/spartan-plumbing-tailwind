@@ -5,7 +5,7 @@ import Layout from '../components/layout/Layout'
 
 // Set variable BGImage to be a url to the image
 import Seo from '../components/seo'
-import { Link } from 'gatsby'
+//import { Link } from 'gatsby'
 
 
 const Emergency = () => (
