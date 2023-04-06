@@ -3,6 +3,7 @@ import * as React from "react"
 import Layout from "../../components/layout/Layout"
 
 import PageBanner from "../../components/pageBanner"
+import Seo from '../../components/seo';
 
 import ServicePages from "../../components/PageComponents/ServicePages/servicePages"
 const GasLines = () => {
@@ -35,3 +36,9 @@ const GasLines = () => {
 }
 
 export default GasLines
+
+export const Head = () => (
+    <Seo 
+    title="Gas Line Installations & Repair Services "
+     />
+    )

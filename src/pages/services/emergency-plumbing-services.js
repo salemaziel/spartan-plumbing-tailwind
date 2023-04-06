@@ -5,6 +5,9 @@ import Layout from "../../components/layout/Layout"
 import PageBanner from "../../components/pageBanner"
 
 import ServicePages from "../../components/PageComponents/ServicePages/servicePages"
+
+import Seo from '../../components/seo';
+
 const Emergency = () => {
     return (
         <Layout>
@@ -35,3 +38,9 @@ const Emergency = () => {
 }
 
 export default Emergency
+
+export const Head = () => (
+    <Seo 
+    title="Emergency Plumbing Services "
+     />
+    )

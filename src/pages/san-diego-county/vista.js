@@ -3,6 +3,8 @@ import Layout from '../../components/layout/Layout'
 
 import ServiceAreas from '../../components/PageComponents/ServiceAreas/serviceAreas'
 
+import Seo from '../../components/seo';
+
 const Vista = () => (
         <Layout>
             <ServiceAreas
@@ -18,3 +20,9 @@ const Vista = () => (
 
 
 export default Vista
+
+export const Head = () => (
+        <Seo 
+        title="Plumbing Services in Vista "
+         />
+        )

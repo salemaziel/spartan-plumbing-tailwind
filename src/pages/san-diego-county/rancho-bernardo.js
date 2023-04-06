@@ -2,6 +2,7 @@ import * as React from 'react'
 import Layout from '../../components/layout/Layout'
 
 import ServiceAreas from '../../components/PageComponents/ServiceAreas/serviceAreas'
+import Seo from '../../components/seo';
 
 const RanchoBernardo = () => (
         <Layout>
@@ -18,3 +19,9 @@ const RanchoBernardo = () => (
 
 
 export default RanchoBernardo
+
+export const Head = () => (
+        <Seo 
+        title="Plumbing Services in Rancho Bernardo "
+         />
+        )

@@ -3,6 +3,7 @@ import * as React from "react"
 import Layout from "../../components/layout/Layout"
 
 import PageBanner from "../../components/pageBanner"
+import Seo from '../../components/seo';
 
 import ServicePages from "../../components/PageComponents/ServicePages/servicePages"
 const MaintenanceInspections = () => {
@@ -35,3 +36,9 @@ const MaintenanceInspections = () => {
 }
 
 export default MaintenanceInspections
+
+export const Head = () => (
+    <Seo 
+    title="Plumbing Maintenance & Inspection Services "
+     />
+    )

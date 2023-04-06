@@ -4,7 +4,7 @@ import Layout from '../components/layout/Layout'
 //const BGImage = () 'http://localhost:8000/static/blue-red-pipewrench-58e5436635ba131ec085a8cb5c6d08f7.jpg'
 
 // Set variable BGImage to be a url to the image
-
+import Seo from '../components/seo'
 import { Link } from 'gatsby'
 
 
@@ -89,3 +89,10 @@ const Emergency = () => (
 )
 
 export default Emergency
+
+
+export const Head = () => (
+    <Seo 
+    title="Emergency Plumbing Services "
+     />
+    )

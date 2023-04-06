@@ -3,6 +3,7 @@ import * as React from "react"
 import Layout from "../../components/layout/Layout"
 
 import PageBanner from "../../components/pageBanner"
+import Seo from '../../components/seo';
 
 import ServicePages from "../../components/PageComponents/ServicePages/servicePages"
 const WaterHeaterInstallations = () => {
@@ -35,3 +36,9 @@ const WaterHeaterInstallations = () => {
 }
 
 export default WaterHeaterInstallations
+
+export const Head = () => (
+    <Seo 
+    title="Water Heater Installation & Repair Services "
+     />
+    )

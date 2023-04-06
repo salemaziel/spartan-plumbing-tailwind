@@ -3,6 +3,7 @@ import Layout from '../components/layout/Layout'
 
 import { Link } from 'gatsby'
 
+import Seo from '../components/seo'
 
 const NotFound = () => (
     <Layout>
@@ -30,3 +31,10 @@ const NotFound = () => (
 )
 
 export default NotFound
+
+
+export const Head = () => (
+    <Seo 
+    title="Page Not Found "
+     />
+    )

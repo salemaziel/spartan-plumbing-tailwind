@@ -5,6 +5,10 @@ import Layout from "../../components/layout/Layout"
 import PageBanner from "../../components/pageBanner"
 
 import ServicePages from "../../components/PageComponents/ServicePages/servicePages"
+
+import Seo from '../../components/seo';
+
+
 const BathroomKitchen = () => {
     return (
         <Layout>
@@ -35,3 +39,9 @@ const BathroomKitchen = () => {
 }
 
 export default BathroomKitchen
+
+export const Head = () => (
+    <Seo 
+    title="Bathroom & Kitchen Plumbing Services "
+     />
+    )

@@ -14,3 +14,9 @@ const Services = () => (
 
 
 export default Services
+
+export const Head = () => (
+    <Seo 
+    title="Plumbing Services "
+     />
+    )

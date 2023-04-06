@@ -3,11 +3,11 @@ import Layout from "../components/layout/Layout"
 
 import PageBanner from "../components/pageBanner"
 
-import AllServiceAreas from "../components/PageComponents/ServiceAreas/allServiceAreas"
+//import AllServiceAreas from "../components/PageComponents/ServiceAreas/allServiceAreas"
 
 import AllServiceAreas2 from "../components/PageComponents/ServiceAreas/allServiceAreas2"
-
-import { Link } from 'gatsby'
+import Seo from '../components/seo';
+//import { Link } from 'gatsby'
 
 const ServiceAreas = () => {
     return (
@@ -103,3 +103,10 @@ const ServiceAreas = () => {
 }
 
 export default ServiceAreas
+
+
+export const Head = () => (
+    <Seo 
+    title="Service Areas "
+     />
+    )
