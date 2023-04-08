@@ -1,6 +1,8 @@
 import * as React from 'react';
 import PageBanner from '../../pageBanner';
 
+import ShakingHands2 from '../../../images/2023/shaking-hands2.jpg'
+
 import { Link } from 'gatsby';
 
 const ServicePages = (props) => {
@@ -15,7 +17,7 @@ const ServicePages = (props) => {
       <div id="content" className="mb-8 text-lg">{props.body}</div>
       </div>
       <div className="px-2 lg:w-2/5 lg:pl-10">
-        <img className="object-cover w-full rounded-lg" src="https://images.unsplash.com/photo-1524508762098-fd966ffb6ef9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt />
+        <img className="object-cover w-full rounded-lg" src={ShakingHands2} alt={props.serviceTitle} />
       </div>
 
       </div>

@@ -4,7 +4,7 @@ import {
   FaTwitter,
   FaInstagram,
   FaEnvelope,
-  FaMapMarkerAlt,
+//  FaMapMarkerAlt,
   FaPhoneAlt
 } from "react-icons/fa"
 import Logo from "../../images/logo-1-words.png"
@@ -12,6 +12,7 @@ import { Link } from "gatsby"
 
 
 const Header = () => {
+//  const [show, setShow] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scroll, setScroll] = useState(false);
 
@@ -101,7 +102,7 @@ const Header = () => {
                 to="/services"
                 aria-label="Services"
                 title="Services"
-                className={" tracking-wide" + " text-lg" + (scroll ? " text-blue-800" : " text-blue-800") + " transition-colors" + " duration-200" + " hover:text-indigo-300"}
+                className={" tracking-wide" + " text-lg" + (scroll ? " text-blue-800" : " text-blue-800") + " transition-colors" + " duration-200" + " hover:font-bolder hover:underline hover:text-logo-blue-500"}
               >
                 Services
               </Link>
@@ -150,38 +151,38 @@ const Header = () => {
                 to="/service-areas"
                 aria-label="Service Areas"
                 title="Service Areas"
-                className={" tracking-wide" + " text-lg" + (scroll ? " text-blue-800" : " text-blue-800") + " transition-colors" + " duration-200" + " hover:text-indigo-300"}
+                className={" tracking-wide" + " text-lg" + (scroll ? " text-blue-800" : " text-blue-800") + " transition-colors" + " duration-200" + " hover:font-bolder hover:underline hover:text-logo-blue-500"}
               >
                 Service Areas
               </Link>
               <ul className="absolute z-10 hidden w-56 p-0 mt-4 shadow-lg bg-logo-blue-500 group-hover:block hover:block hover">
                 <li>
-                <Link to="/san-diego-county/escondido" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Escondido </Link>
+                <Link to="/service-areas/san-diego-county/escondido" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Escondido </Link>
                 </li>
 
                 <li>
-                <Link to="/san-diego-county/mira-mesa" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Mira Mesa</Link>
+                <Link to="/service-areas/san-diego-county/carlsbad" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Carlsbad</Link>
                 </li>
                 <li>
-                <Link to="/san-diego-county/miramar" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Miramar</Link>
+                <Link to="/service-areas/san-diego-county/oceanside" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Oceanside </Link>
                 </li>
                 <li>
-                <Link to="/san-diego-county/oceanside" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Oceanside </Link>
+                <Link to="/service-areas/san-diego-county/poway" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Poway </Link>
                 </li>
                 <li>
-                <Link to="/san-diego-county/poway" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Poway </Link>
+                <Link to="/service-areas/san-diego-county/rancho-bernardo" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Rancho Bernardo</Link>
                 </li>
                 <li>
-                <Link to="/san-diego-county/rancho-bernardo" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Rancho Bernardo</Link>
+                <Link to="/service-areas/san-diego-county/san-diego" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">San Diego</Link>
                 </li>
                 <li>
-                <Link to="/san-diego-county/san-diego" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">San Diego</Link>
+                <Link to="/service-areas/san-diego-county/san-marcos" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">San Marcos</Link>
                 </li>
                 <li>
-                <Link to="/san-diego-county/san-marcos" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">San Marcos</Link>
+                <Link to="/service-areas/riverside-county/temecula" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Temecula</Link>
                 </li>
                 <li>
-                <Link to="/san-diego-county/vista" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Vista</Link>
+                <Link to="/service-areas/san-diego-county/vista" className="block px-4 py-4 text-base text-gray-100 transition-colors duration-200 transform rounded bg-logo-blue-500 hover:bg-blue-900 hover:text-white">Vista</Link>
                 </li>
                 </ul>
             </div>
@@ -190,7 +191,7 @@ const Header = () => {
                 to="/about"
                 aria-label="About us"
                 title="About us"
-                className={" tracking-wide" + " text-lg" + (scroll ? " text-blue-800" : " text-blue-800") + " transition-colors" + " duration-200" + " hover:text-indigo-300"}
+                className={" tracking-wide" + " text-lg" + (scroll ? " text-blue-800" : " text-blue-800") + " transition-colors" + " duration-200" + " hover:font-bolder hover:underline hover:text-logo-blue-500"}
               >
                 About Us
               </Link>
@@ -200,7 +201,7 @@ const Header = () => {
                 to="/contact"
                 aria-label="contact"
                 title="contact"
-                className={" tracking-wide" + " text-lg" +  (scroll ? " text-blue-800" : " text-blue-800") + " transition-colors" + " duration-200" + " hover:text-indigo-300"}
+                className={" tracking-wide" + " text-lg" +  (scroll ? " text-blue-800" : " text-blue-800") + " transition-colors" + " duration-200" + " hover:font-bolder hover:underline  hover:text-logo-blue-500"}
               >
                 Contact Us
               </Link>
@@ -212,7 +213,7 @@ const Header = () => {
             <div className="px-4 py-4">
               <Link
                 to="/emergency-services"
-                className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white whitespace-no-wrap transition duration-200 rounded shadow-md lg:py-2 lg:px-8 bg-red-accent-700 hover:bg-blue-800 hover:text-gray-100 focus:shadow-outline focus:outline-none"
+                className="inline-flex items-center justify-center h-12 px-6 tracking-wide text-white whitespace-no-wrap transition duration-200 rounded shadow-md lg:py-2 lg:px-8 bg-red-accent-700 hover:bg-blue-800 hover:text-gray-100 focus:shadow-outline focus:outline-none"
                 aria-label="Emergency Services"
                 title="Emergency Services"
               >
@@ -224,7 +225,7 @@ const Header = () => {
             <button
               aria-label="Open Menu"
               title="Open Menu"
-              className={"p-2" + " -mr-1" + (scroll ? " text-red-700" : " text-gray-100") + " transition" + " duration-200" + " rounded" + " focus:outline-none" + " focus:shadow-outline" + " hover:bg-deep-purple-50" + " focus:bg-deep-purple-50"}
+              className={"p-2" + " -mr-1" + (scroll ? " text-red-700" : " text-gray-100") + " transition" + " duration-200" + " rounded" + " focus:outline-none" + " focus:shadow-outline" + " hover:bg-logo-blue-500" + " focus:bg-logo-blue-500"}
               onClick={() => setIsMenuOpen(true)}
             >
               <svg className="w-8 text-red-700" viewBox="0 0 24 24">
@@ -304,7 +305,7 @@ const Header = () => {
                           href="/about"
                           aria-label="About"
                           title="About Us"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-bold tracking-wide text-blue-800 transition-colors duration-200 hover:text-logo-blue-500"
                         >
                           About Us
                         </Link>
@@ -314,7 +315,7 @@ const Header = () => {
                           to="/services"
                           aria-label="Services"
                           title="Services"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-bold tracking-wide text-blue-800 transition-colors duration-200 hover:text-logo-blue-500"
                         >
                           Services
                         </Link>
@@ -324,7 +325,7 @@ const Header = () => {
                           to="/service-areas"
                           aria-label="Service Areas"
                           title="Service Areas"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-bold tracking-wide text-blue-800 transition-colors duration-200 hover:text-logo-blue-500"
                         >
                           Service Areas
                         </Link>
@@ -336,7 +337,7 @@ const Header = () => {
                           to="/contact"
                           aria-label="Contact"
                           title="Contact"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-bold tracking-wide text-blue-800 transition-colors duration-200 hover:text-logo-blue-500"
                         >
                           Contact
                         </Link>
@@ -344,7 +345,7 @@ const Header = () => {
                       <li>
                         <Link
                           to="/emergency-services"
-                          className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-red-accent-700 hover:bg-red-accent-400 focus:shadow-outline focus:outline-none"
+                          className="inline-flex items-center justify-center w-full h-12 px-6 font-bold tracking-wide text-white transition duration-200 rounded shadow-md bg-red-accent-700 hover:bg-red-accent-400 focus:shadow-outline focus:outline-none"
                           aria-label="emergency services"
                           title="Emergency Services"
                         >

@@ -1,7 +1,8 @@
 import React from "react";
 
+import PlumbingTools from "../../../images/2023/plumbing-tools.jpg";
 
-
+import ThumbsUp from "../../../images/2023/plumber-thumbs-up.jpg";
 
 const S2Header = (props) => {
 return (
@@ -9,7 +10,7 @@ return (
   <div className="container mx-auto mb-24">
     <div className="flex flex-wrap items-center -mx-2 text-center lg:text-left">
       <div className="order-1 px-2 mt-10 lg:w-1/2 lg:pr-10 lg:mt-0 lg:order-none">
-        <h2 className="mb-6 text-4xl font-semibold leading-tight lg:text-5xl font-heading">Reliable Service You Can Trust.</h2>
+        <h2 className="mb-6 text-4xl font-semibold leading-tight text-logo-blue-500 lg:text-5xl font-heading">Reliable Service You Can Trust.</h2>
         <p className="mb-8 text-lg leading-relaxed text-gray-700">
       Welcome to Spartan Plumbing and Drain! We are a full-service plumbing company that services all over Southern California, including the cities of Escondido, San Marcos, Vista, Oceanside, Poway, Mira Mesa, Miramar, San Diego and greater San Diego County as well as the city of Temecula. Our experienced team of plumbers is dedicated to providing top-notch service for all your plumbing needs. </p>
       <p className="mb-8 text-lg leading-relaxed text-gray-700">
@@ -18,7 +19,7 @@ At Spartan Plumbing and Drain we offer a variety of services including general r
 
       </div>
       <div className="px-2 lg:w-1/2">
-        <img className="object-cover w-full rounded-lg" src="https://dummyimage.com/500x400" alt />
+        <img className="object-cover w-full rounded-lg" src={ThumbsUp} alt />
       </div>
     </div>
   </div>
@@ -34,7 +35,7 @@ At Spartan Plumbing and Drain we offer a variety of services including general r
 We understand how important it is for you that any work done in your home meets high standards both in terms of quality materials used and craftsmanship applied when completing projects. That’s why at Spartan Plumbing & Drain we only use top quality tools from trusted brands with an eye towards ensuring long lasting results every time—guaranteed! Contact us today if you need help with any kind of plumbing related project large or small – our friendly staff will be more than happy assist you right away!</p>
       </div>
       <div className="px-2 lg:w-1/2">
-        <img className="object-cover w-full rounded-lg" src="https://dummyimage.com/500x400" alt />
+        <img className="object-cover w-full rounded-lg" src={PlumbingTools} alt />
       </div>
 
       </div>

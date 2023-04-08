@@ -13,7 +13,7 @@ const AboutPage = (props) => {
             PageName="About Us"
             />
         <S2Header />
-        <S3Content />
+        {/*<S3Content />*/}
 
 
 

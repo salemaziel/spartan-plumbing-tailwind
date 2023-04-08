@@ -24,7 +24,7 @@ const CTA = (props) => {
   <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
     <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
       {/*<span className="block">{props.CTALine1}</span>*/}
-      <span className="block text-indigo-600">{props.CTALine2}</span>
+      <span className="block text-logo-blue-500">{props.CTALine2}</span>
     </h2>
     <div className="flex mt-8 lg:mt-0 lg:flex-shrink-0">
       <div className="inline-flex mx-auto rounded-md">
