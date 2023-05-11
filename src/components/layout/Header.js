@@ -211,14 +211,15 @@ const Header = () => {
           </div>
           <div className="items-center hidden space-x-8 lg:flex">
             <div className="px-4 py-4">
-              <Link
-                to="/emergency-services"
+              <a href="https://book.housecallpro.com/book/Spartan-plumbing-and-drain-services/bf86201b88a94afa957812c2674e8921"
+                rel="noopener noreferrer"
+                target="_blank"
                 className="inline-flex items-center justify-center h-12 px-6 tracking-wide text-white whitespace-no-wrap transition duration-200 rounded shadow-md lg:py-2 lg:px-8 bg-red-accent-700 hover:bg-blue-800 hover:text-gray-100 focus:shadow-outline focus:outline-none"
-                aria-label="Emergency Services"
-                title="Emergency Services"
+                aria-label="Book Online"
+                title="Book Online"
               >
-                Emergency Services
-              </Link>
+                Book Online
+              </a>
             </div>
           </div>
           <div className="lg:hidden">
@@ -343,14 +344,15 @@ const Header = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link
-                          to="/emergency-services"
+                        <a href="https://book.housecallpro.com/book/Spartan-plumbing-and-drain-services/bf86201b88a94afa957812c2674e8921"
+                          rel="noopener noreferrer"
+                          target="_blank"
                           className="inline-flex items-center justify-center w-full h-12 px-6 font-bold tracking-wide text-white transition duration-200 rounded shadow-md bg-red-accent-700 hover:bg-red-accent-400 focus:shadow-outline focus:outline-none"
-                          aria-label="emergency services"
-                          title="Emergency Services"
+                          aria-label="Book Online"
+                          title="Book Online"
                         >
-                          Emergency Services
-                        </Link>
+                          Book Online
+                        </a>
                       </li>
 
 
