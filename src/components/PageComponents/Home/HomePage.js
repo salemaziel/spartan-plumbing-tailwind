@@ -27,7 +27,7 @@ const HomePage = (props) => {
 
             <S3InfoGrid />
 
-            <S5Testimonials />
+            {/*<S5Testimonials />*/}
 
 
             {/*<S6FAQ />*/}

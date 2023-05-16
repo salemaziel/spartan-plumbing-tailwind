@@ -27,8 +27,23 @@ module.exports = {
       resolve: `gatsby-plugin-react-helmet-async`,
     },
     {
-      resolve: `gatsby-plugin-sitemap`,
+      resolve: `gatsby-plugin-advanced-sitemap`,
     },
+//    {
+//      resolve: 'gatsby-plugin-matomo',
+//      options: {
+//        siteId: 'YOUR_SITE_ID',
+//        matomoUrl: 'https://YOUR_MATOMO_URL.COM',
+//        siteUrl: 'https://YOUR_LIVE_SITE_URL.COM',
+//        matomoJsScript: '',
+//        exclude: ['/preview/**', '/do-not-track/me/too/'],
+//        requireConsent: false,
+//        requireCookieConsent: false,
+//        disableCookies: false,
+//        cookiedomain: 'YOUR_SITE_URL.COM',
+//       dev: false,
+//      }
+//    }
 //    {
 //      resolve: `gatsby-plugin-advanced-sitemap`,
 //      options: {
@@ -54,18 +69,17 @@ module.exports = {
 //              },
 //          ],
 //      }
-//  },
-{
-      resolve: `gatsby-plugin-netlify`,
-      options: {
-        headers: {}, // option to add more headers. `Link` headers are transformed by the below criteria
+//  },{
+//      resolve: `gatsby-plugin-netlify`,
+//      options: {
+//        headers: {}, // option to add more headers. `Link` headers are transformed by the below criteria
 //        allPageHeaders: [], // option to add headers for all pages. `Link` headers are transformed by the below criteria
 //        mergeSecurityHeaders: true, // boolean to turn off the default security headers
 //        mergeCachingHeaders: true, // boolean to turn off the default caching headers
 //        transformHeaders: (headers, path) => headers, // optional transform for manipulating headers under each path (e.g.sorting), etc.
-        generateMatchPathRewrites: true, // boolean to turn off automatic creation of redirect rules for client only paths
-      },
-    },
+//        generateMatchPathRewrites: true, // boolean to turn off automatic creation of redirect rules for client only paths
+//      },
+//    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

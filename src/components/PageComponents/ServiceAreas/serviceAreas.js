@@ -1,7 +1,7 @@
 import * as React from 'react';
 import PageBanner from '../../pageBanner';
 
-import ShakingHands from '../../../images/2023/shaking-hands.jpg';
+import ShakingHands from '../../../images/2023/plumber-client-shaking-hands-resized.jpg';
 
 import { Link } from 'gatsby';
 

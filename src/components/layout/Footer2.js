@@ -4,7 +4,7 @@ import Logo from '../../images/spartan-plumbing-logo-full.png'
 
 import { Link } from 'gatsby';
 
-import { FaFacebookF, FaInstagram, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaEnvelope } from 'react-icons/fa';
 
 
 const Footer2 = () => (
@@ -54,8 +54,8 @@ const Footer2 = () => (
       <div className="w-full px-3 mb-8 lg:w-1/5 lg:mb-0">
       </div>
       <div className="w-full px-3 mb-8 lg:w-1/5 lg:mb-0">
-        <p className="mb-2 font-bold text-white lg:mb-4 lg:text-lg font-heading">Office</p>
-        <p className="text-white lg:text-lg">P.O. Box Escondido, CA</p>
+        <p className="mb-2 font-bold text-white lg:mb-4 lg:text-lg font-heading">Office Hours</p>
+        <p className="text-white lg:text-lg">Monday - Friday : 9am - 6pm</p>
       </div>
       <div className="w-full px-3 lg:w-1/5">
         <p className="mb-2 font-bold text-white lg:mb-4 lg:text-lg font-heading">Contact</p>

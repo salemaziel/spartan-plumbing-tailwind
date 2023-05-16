@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import ShakingHands from '../../../images/2023/shaking-hands.jpg';
+import ShakingHands from '../../../images/2023/plumber-client-shaking-hands-resized.jpg';
 
 const S2Intro = (props) => {
   return (

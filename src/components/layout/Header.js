@@ -5,6 +5,7 @@ import {
   FaInstagram,
   FaEnvelope,
 //  FaMapMarkerAlt,
+  FaYoutube,
   FaPhoneAlt
 } from "react-icons/fa"
 import Logo from "../../images/logo-1-words.png"
@@ -70,7 +71,7 @@ const Header = () => {
               <FaFacebookF size="1.5rem" className="" />
             </a>
             <a href="#" className="inline-flex flex-wrap items-center justify-center mx-1 text-center text-gray-100 align-middle border border-gray-100 rounded-full md:p-2 lg:p-0 md:mx-2 md:w-10 md:h-10 ">
-              <FaTwitter size="1.5rem" className="" />
+              <FaYoutube size="1.5rem" className="" />
             </a>
             <a href="#" className="inline-flex flex-wrap items-center justify-center mx-1 text-center text-gray-100 align-middle border border-gray-100 rounded-full md:p-2 lg:p-0 md:mx-2 md:w-10 md:h-10 ">
               <FaInstagram size="1.5rem" className="" />
