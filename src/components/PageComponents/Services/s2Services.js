@@ -5,16 +5,16 @@ import { Link } from "gatsby";
 import ServiceBlurb from "./serviceBlurb";
 
 import KitchenSink from '../../../images/2023/kitchen-sink.jpg'
-import SewerPipes from '../../../images/2023/sewer-pipes.jpg'
-import WaterFiltration from '../../../images/2023/under-sink-water-filtration.jpg'
-import Emergency from '../../../images/2023/emergency-leak.jpg'
+import SewerPipes from '../../../images/2023/sewer-line.jpg'
+import WaterFiltration from '../../../images/2023/water-filtration.jpg'
+import Emergency from '../../../images/2023/emergency-plumbing.jpg'
 //import ResGasLines from '../../../images/2023/residential-gas-water-lines.jpg'
 import GasLineWaterHeater from '../../../images/2023/gasline-propane-waterheater.jpg'
-import Inspection1 from '../../../images/2023/inspection-clipboard.jpg'
-import PipeRepair from '../../../images/2023/pipe-repair.jpg'
+import Inspection1 from '../../../images/2023/inspection-maintenance-resized.jpg'
+import PipeRepair from '../../../images/2023/plumbing-pipe-repairs-resized.jpg'
 import Commercial from '../../../images/2023/big-pipe-commercial.jpg'
 import LeakingTap from '../../../images/2023/leaking-tap.jpg'
-import SumpPump from '../../../images/2023/sump-pump.jpg'
+import SumpPump from '../../../images/2023/sump-pump-install-repair-resized.jpg'
 import WaterHeater from '../../../images/2023/water-heater.jpg'
 import PlumbingServices from '../../../images/2023/plumbing-services.jpg'
 

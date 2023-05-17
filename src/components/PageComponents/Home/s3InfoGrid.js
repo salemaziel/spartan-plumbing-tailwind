@@ -10,8 +10,8 @@ import { Link } from 'gatsby';
 
 
 import KitchenSink from '../../../images/2023/kitchen-sink.jpg'
-import SewerPipes from '../../../images/2023/sewer-pipes.jpg'
-import WaterFiltration from '../../../images/2023/under-sink-water-filtration.jpg'
+import SewerPipes from '../../../images/2023/sewer-line.jpg'
+import WaterFiltration from '../../../images/2023/water-filtration.jpg'
 import Emergency from '../../../images/2023/emergency-plumbing.jpg'
 //import ResGasLines from '../../../images/2023/residential-gas-water-lines.jpg'
 import GasLineWaterHeater from '../../../images/2023/gasline-propane-waterheater.jpg'
