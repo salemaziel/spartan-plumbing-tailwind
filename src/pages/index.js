@@ -22,6 +22,6 @@ export default Index
 
 export const Head = () => (
     <Seo 
-    title="Spartan Plumbing & Drain | Quality Plumbing You Can Trust"
+    title="Quality Plumbing You Can Trust"
      />
     )
