@@ -34,13 +34,13 @@ const Header = () => {
         <AnchorLink className="px-4" href="#features">
           Features
         </AnchorLink>
-        <Link to="/contact" rel="preload" className="px-4">
+        <Link to="/contact/" rel="preload" className="px-4">
           Contact
         </Link>
-        <Link to="/about" rel="preload" className="px-4">
+        <Link to="/about/" rel="preload" className="px-4">
           About
         </Link>
-        <Link to="/contact" rel="preload" className="px-4">
+        <Link to="/contact/" rel="preload" className="px-4">
           Contact
         </Link>
       </div>

@@ -3,8 +3,8 @@ module.exports = {
     title: 'Spartan Plumbing and Drain', // Navigation and Site Title
     titleAlt: 'Spartan Plumbing and Drain', // Title for JSONLD
     description: 'Residential and commercial plumbing services for San Diego, Temecula, Orange, Riverside and Los Angeles Counties',
-    url: 'https://spartanpad.com', // Domain of your site. No trailing slash!
-    siteUrl: 'https://spartanpad.com/', // url + pathPrefix
+    url: 'https://www.spartanpad.com', // Domain of your site. No trailing slash!
+    siteUrl: 'https://www.spartanpad.com/', // url + pathPrefix
     siteLanguage: 'en', // Language Tag on <html> element
     logo: 'static/logo/logo-1-words.png', // Used for SEO
     banner: 'static/logo/logo-1-words.png',
