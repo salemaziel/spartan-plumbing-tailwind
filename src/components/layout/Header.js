@@ -10,7 +10,7 @@ import {
 } from "react-icons/fa"
 import Logo from "../../images/logo-1-words.png"
 import { Link } from "gatsby"
-
+import { StaticImage } from "gatsby-plugin-image";
 
 const Header = () => {
 //  const [show, setShow] = useState(false);
@@ -95,7 +95,22 @@ const Header = () => {
             title="Spartan Plumbing"
             className={" text-gray-100" + " inline-flex" + " items-center" + " md:w-56" + " w-40" + (scroll ? " visible" : " invisible")}
           >
-            <img src={Logo} alt="Spartan Plumbing Logo" className="w-full" />
+            {/*<img src={Logo} alt="Spartan Plumbing Logo" className="w-full" />*/}
+            <StaticImage
+                    src="../../images/logo-1-words.png"
+                    alt="Spartan Plumbing and Drain Logo"
+                    placeholder="blurred"
+                    layout="constrained"
+                    width={436}
+                    height={128}
+                    aspectRatio={109/32}
+                    formats={["AUTO", "WEBP", "AVIF"]}
+                    quality={80}
+                    className='w-full'
+                    imgClassName='w-full'
+                    loading='eager'
+              />
+
           </Link>
           <div className="items-center hidden space-x-8 lg:flex">
             <div className="px-4 py-4 lg:order-1 group">
