@@ -1,6 +1,7 @@
 import * as React from 'react';
-
-import ShakingHands from '../../../images/2023/plumber-client-shaking-hands-resized.jpg';
+import { StaticImage } from 'gatsby-plugin-image';
+//import ShakingHands from '../../../images/2023/plumber-client-shaking-hands-resized.jpg';
+import FriendlyPlumber from '../../../images/2023-2/plumber-van-behind.jpg';
 
 const S2Intro = (props) => {
   return (
@@ -20,7 +21,19 @@ const S2Intro = (props) => {
 
     </div>
     <div className="w-full align-top animate-fade-in-bottom lg:max-w-xl lg:w-full md:w-1/2">
-      <img className="object-cover object-center rounded-lg" src={ShakingHands} alt="Plumbering Shaking Hands with Customer" />
+     {/* <img className="object-cover object-center rounded-lg" src={ShakingHands} alt="Plumbering Shaking Hands with Customer" />*/}
+      <StaticImage
+      src="../../../images/2023-2/plumber-van-behind.jpg"
+      alt="Our Friendly plumbers"
+      placeholder="blurred"
+      layout="constrained"
+      width={576}
+      height={384}
+      formats={["AUTO", "WEBP", "AVIF"]}
+      quality={95}
+      imgClassName='object-cover object-center rounded-lg'
+      loading='lazy'
+    />
     </div>
   </div>
 </section>

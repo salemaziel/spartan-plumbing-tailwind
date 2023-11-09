@@ -1,10 +1,10 @@
 import React from "react";
+import { StaticImage } from "gatsby-plugin-image";
+//import PlumbingTools from "../../../images/2023/plumbing-tools.jpg";
 
-import PlumbingTools from "../../../images/2023/plumbing-tools.jpg";
+//import ThumbsUp from "../../../images/2023/plumber-thumbs-up.jpg";
 
-import ThumbsUp from "../../../images/2023/plumber-thumbs-up.jpg";
-
-const S2Header = (props) => {
+const S2Header = () => {
 return (
 <section className="px-4 py-12 my-4">
   <div className="container mx-auto mb-24">
@@ -19,7 +19,18 @@ At Spartan Plumbing and Drain we offer a variety of services including general r
 
       </div>
       <div className="px-2 lg:w-1/2">
-        <img className="object-cover w-full rounded-lg" src={ThumbsUp} alt />
+        {/*<img className="object-cover w-full rounded-lg" src={ThumbsUp} alt />*/}
+        <StaticImage
+                    src="../../../images/2023-2/about1.jpg"
+                    alt="Our Friendly plumbers"
+                    placeholder="blurred"
+                    layout="constrained"
+                    width={760}
+                    height={507}
+                    formats={["AUTO", "WEBP", "AVIF"]}
+                    quality={95}
+                    imgClassName='object-cover w-full rounded-lg'
+                    />
       </div>
     </div>
   </div>
@@ -35,7 +46,19 @@ At Spartan Plumbing and Drain we offer a variety of services including general r
 We understand how important it is for you that any work done in your home meets high standards both in terms of quality materials used and craftsmanship applied when completing projects. That’s why at Spartan Plumbing & Drain we only use top quality tools from trusted brands with an eye towards ensuring long lasting results every time—guaranteed! Contact us today if you need help with any kind of plumbing related project large or small – our friendly staff will be more than happy assist you right away!</p>
       </div>
       <div className="px-2 lg:w-1/2">
-        <img className="object-cover w-full rounded-lg" src={PlumbingTools} alt />
+        {/*<img className="object-cover w-full rounded-lg" src={PlumbingTools} alt />*/}
+        <StaticImage
+                    src="../../../images/2023/plumbing-tools.jpg"
+                    alt="Tools our plumbers use"
+                    placeholder="blurred"
+                    layout="constrained"
+                    width={760}
+                    height={507}
+                    formats={["AUTO", "WEBP", "AVIF"]}
+                    quality={95}
+                    imgClassName='object-cover w-full rounded-lg'
+                    loading='lazy'
+                    />
       </div>
 
       </div>

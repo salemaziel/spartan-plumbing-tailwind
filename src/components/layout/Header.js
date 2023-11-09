@@ -67,19 +67,19 @@ const Header = () => {
 
           {/* Begin Socials*/}
           <div className="flex-row justify-end hidden w-1/4 align-middle lg:flex">
-            <a href="#" className="inline-flex flex-wrap items-center justify-center mx-1 text-center text-gray-100 align-middle border border-gray-100 rounded-full md:p-2 lg:p-0 md:mx-2 md:w-10 md:h-10 ">
+            {/*<a href="#" className="inline-flex flex-wrap items-center justify-center mx-1 text-center text-gray-100 align-middle border border-gray-100 rounded-full md:p-2 lg:p-0 md:mx-2 md:w-10 md:h-10 ">
               <FaFacebookF size="1.5rem" className="" />
             </a>
             <a href="#" className="inline-flex flex-wrap items-center justify-center mx-1 text-center text-gray-100 align-middle border border-gray-100 rounded-full md:p-2 lg:p-0 md:mx-2 md:w-10 md:h-10 ">
               <FaYoutube size="1.5rem" className="" />
-            </a>
+  </a>
             <a href="#" className="inline-flex flex-wrap items-center justify-center mx-1 text-center text-gray-100 align-middle border border-gray-100 rounded-full md:p-2 lg:p-0 md:mx-2 md:w-10 md:h-10 ">
               <FaInstagram size="1.5rem" className="" />
+  </a>*/}
+            <a href="mailto:contact@spartanpad.com" className="inline-flex flex-wrap items-center justify-center mx-1 text-center text-gray-100 align-middle border border-gray-100 rounded-full md:p-2 lg:p-0 md:mx-2 md:w-10 md:h-10 ">
+              <FaEnvelope size="1.5rem" className="text-white fill-white" />
             </a>
-            <a href="#" className="inline-flex flex-wrap items-center justify-center mx-1 text-center text-gray-100 align-middle border border-gray-100 rounded-full md:p-2 lg:p-0 md:mx-2 md:w-10 md:h-10 ">
-              <FaEnvelope size="1.5rem" className="" />
-            </a>
-          </div>
+  </div>
           {/* End Socials*/}
         </div>
         {/* End Centering of Top Bar for Content */}
