@@ -9,6 +9,7 @@ const EstimateForm = (props) => {
           method="post"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
+          data-netlify-recaptcha="true"
           action="/#"
           className="sticky z-20 flex-col w-full p-6 px-4 bg-gray-100 rounded md:z-10 lg:mt-10 lg:w-11/12 md:flex md:mx-auto lg:mx-auto">
             <h2 className="block mb-5 text-3xl font-bold text-center text-blue-900 font-montserrat title-font">Request A Quote Today</h2>
@@ -76,6 +77,7 @@ const EstimateForm = (props) => {
             className="w-full h-32 px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-white border border-gray-300 rounded outline-none resize-none focus:border-blue-800 focus:ring-2 focus:ring-blue-800" 
             defaultValue={""} />
           </div>
+          <div data-netlify-recaptcha="true"></div>
 
             <button className="w-full px-8 py-2 text-lg text-white bg-red-800 border-0 rounded focus:outline-none hover:bg-green-600">
               Submit

@@ -1,11 +1,11 @@
 import * as React from 'react';
 
-import Logo from '../../images/spartan-plumbing-logo-full.png'
+//import Logo from '../../images/spartan-plumbing-logo-full.png'
+import { StaticImage } from "gatsby-plugin-image";
+//import { Link } from 'gatsby';
 
-import { Link } from 'gatsby';
-
-import { FaFacebookF, FaInstagram, FaEnvelope } from 'react-icons/fa';
-
+//import { FaFacebookF, FaInstagram, FaEnvelope } from 'react-icons/fa';
+import { FaEnvelope } from 'react-icons/fa';
 
 const Footer2 = () => (
   <>
@@ -17,10 +17,10 @@ const Footer2 = () => (
       </a>* /}
       <ul className="flex flex-wrap items-center justify-center mb-12 space-x-6 text-lg md:mb-20 md:justify-between">
         <Link to="/" className="mb-4 font-bold text-white md:mb-0 hover:text-gray-100" href="#">Home</Link>
-        <Link to="/services" className="mb-4 font-bold text-white md:mb-0 hover:text-gray-100" href="#">Services</Link>
-        <Link to="/service-areas" className="mb-4 font-bold text-white md:mb-0 hover:text-gray-100" href="#">Service Areas</Link>
-        <Link to="/about" className="mb-4 font-bold text-white md:mb-0 hover:text-gray-100" href="#">About Us</Link>
-        <Link to="/contact" className="mb-4 font-bold text-white md:mb-0 hover:text-gray-100" href="#">Contact</Link>
+        <Link to="/services/" className="mb-4 font-bold text-white md:mb-0 hover:text-gray-100" href="#">Services</Link>
+        <Link to="/service-areas/" className="mb-4 font-bold text-white md:mb-0 hover:text-gray-100" href="#">Service Areas</Link>
+        <Link to="/about/" className="mb-4 font-bold text-white md:mb-0 hover:text-gray-100" href="#">About Us</Link>
+        <Link to="/contact/" className="mb-4 font-bold text-white md:mb-0 hover:text-gray-100" href="#">Contact</Link>
       </ul>
       <div className="flex justify-center">
         <a className="flex items-center justify-center w-12 h-12 mr-4 rounded-full bg-red-accent-700 hover:bg-red-900" href="#" rel="noreferrer nofollow" target="_blank">
@@ -46,7 +46,21 @@ const Footer2 = () => (
     <div className="flex flex-wrap mb-12 -mx-3 text-center lg:mb-20 lg:text-left">
       <div className="w-full px-3 mb-6 lg:w-2/5 lg:mb-0">
         <div className="inline-block mx-auto -mt-6 font-semibold leading-none lg:mx-0">
-          <img className="h-24 md:h-32" src={Logo} alt width="auto" />
+          {/*<img className="h-24 md:h-32" src={Logo} alt width="auto" />*/}
+          <StaticImage
+                    src="../../images/spartan-plumbing-logo-full.png"
+                    alt="Spartan Plumbing and Drain Logo"
+                    placeholder="blurred"
+                    layout="constrained"
+                    width={481}
+                    height={128}
+                    aspectRatio={481/128}
+                    formats={["AUTO", "WEBP", "AVIF"]}
+                    quality={80}
+                    className=''
+                    imgClassName='h-24 md:h-32'
+                    loading='lazy'
+              />
           <p className="max-w-md py-4 mx-auto text-lg leading-relaxed text-center text-white lg:max-w-full">Lic #1071770</p>
 
         </div>
@@ -65,15 +79,15 @@ const Footer2 = () => (
     <div className="flex flex-col items-center lg:flex-row lg:justify-between">
       <p className="text-xs text-white">© 2023. All rights reserved.</p>
       <div className="order-first mb-4 -mx-2 lg:order-last lg:mb-0">
-        <a className="inline-block px-2" href="#">
+        {/*<a className="inline-block px-2" href="#">
         <FaFacebookF className="w-6 h-6 text-white" />
-        </a>
-        <a className="inline-block px-2" href="#">
+</a>*/}
+        <a className="inline-block px-2" href="mailto:contact@spartanpad.com">
         <FaEnvelope className="w-6 h-6 text-white" />
         </a>
-        <a className="inline-block px-2" href="#">
+        {/*<a className="inline-block px-2" href="#">
         <FaInstagram className="w-6 h-6 text-white" />
-        </a>
+</a>*/}
       </div>
     </div>
   </div>

@@ -51,13 +51,14 @@ function S2Form() {
             <div className="w-full px-4 lg:w-1/2">
               <form
                 name="contact"
-                //    method="post"
+                method="post"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
+                data-netlify-recaptcha="true"
                 action="/success"
               >
-                <input type="hidden" name="form-name" value="contact" />
-                <input type="hidden" name="form-name" value="contact" />
+                <input type="hidden" name="bot-field" />
+                <input type="hidden" name="form-name" value="contact" />              
                 <input 
                 className="w-full py-3 pl-3 mb-4 leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-white border border-gray-300 rounded outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200" 
                 type="text"
@@ -95,6 +96,7 @@ function S2Form() {
 
 
                 />
+                <div data-netlify-recaptcha="true"></div>
                 <button className="inline-block w-full px-6 py-3 mr-4 text-lg font-bold leading-loose text-white transition duration-200 bg-blue-500 border-0 rounded focus:outline-none hover:bg-blue-600"
                               type="submit"
               id="submit"

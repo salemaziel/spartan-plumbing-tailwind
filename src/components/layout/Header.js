@@ -1,14 +1,14 @@
 import React, { useState, useEffect, useCallback } from 'react'
 import {
-  FaFacebookF,
-  FaTwitter,
-  FaInstagram,
+//  FaFacebookF,
+//  FaTwitter,
+//  FaInstagram,
   FaEnvelope,
 //  FaMapMarkerAlt,
-  FaYoutube,
+//  FaYoutube,
   FaPhoneAlt
 } from "react-icons/fa"
-import Logo from "../../images/logo-1-words.png"
+//import Logo from "../../images/logo-1-words.png"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image";
 
@@ -43,7 +43,20 @@ const Header = () => {
         title="Spartan Plumbing and Drain"
         className="absolute z-20 items-center hidden text-gray-100 bg-white rounded lg:block lg:mt-4 lg:ml-4 lg:w-1/4 lg:p-5"
       >
-        <img src={Logo} alt="Spartan Plumbing Logo" className="w-full" />
+        <StaticImage
+                    src="../../images/logo-1-words.png"
+                    alt="Spartan Plumbing and Drain Logo"
+                    placeholder="blurred"
+                    layout="constrained"
+                    width={436}
+                    height={128}
+                    aspectRatio={109/32}
+                    formats={["AUTO", "WEBP", "AVIF"]}
+                    quality={80}
+                    className='w-full'
+                    imgClassName='w-full'
+                    loading='eager'
+              />
       </Link>
       {/* End Logo */}
 
@@ -95,20 +108,19 @@ const Header = () => {
             title="Spartan Plumbing"
             className={" text-gray-100" + " inline-flex" + " items-center" + " md:w-56" + " w-40" + (scroll ? " visible" : " invisible")}
           >
-            {/*<img src={Logo} alt="Spartan Plumbing Logo" className="w-full" />*/}
             <StaticImage
                     src="../../images/logo-1-words.png"
                     alt="Spartan Plumbing and Drain Logo"
                     placeholder="blurred"
                     layout="constrained"
-                    width={436}
-                    height={128}
-                    aspectRatio={109/32}
+                    width={224}
+                    height={66}
+                    aspectRatio={112/33}
                     formats={["AUTO", "WEBP", "AVIF"]}
                     quality={80}
                     className='w-full'
                     imgClassName='w-full'
-                    loading='eager'
+                    loading='lazy'
               />
 
           </Link>
@@ -296,7 +308,20 @@ const Header = () => {
                         title="Spartan Plumbing and Drain"
                         className="inline-flex items-center w-40 text-gray-100"
                       >
-                        <img src={Logo} alt="Spartan Plumbing Logo" className="w-full" />
+                        <StaticImage
+                    src="../../images/logo-1-words.png"
+                    alt="Spartan Plumbing and Drain Logo"
+                    placeholder="blurred"
+                    layout="constrained"
+                    width={160}
+                    height={47}
+                    aspectRatio={160/47}
+                    formats={["AUTO", "WEBP", "AVIF"]}
+                    quality={80}
+                    className='w-full'
+                    imgClassName='w-full'
+                    loading='lazy'
+              />
                       </Link>
                     </div>
                     <div>
