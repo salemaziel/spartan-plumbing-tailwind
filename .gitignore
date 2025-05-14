@@ -82,7 +82,12 @@ yarn-error.log
 # Local Netlify folder
 .netlify
 
-.history
+.history/
+
 
 .vscode
 .history
+
+.lh/
+
+*.code-snippets

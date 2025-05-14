@@ -34,7 +34,7 @@ function AllServiceAreas2() {
                     </div>*/}
                     <div className="mt-40 md:mt-48">
                         <div className="flex flex-col flex-wrap items-center justify-center md:flex-row xl:justify-between">
-                            <Link to="/service-areas/san-diego-county/escondido" className="px-2 mt-16 group sm:flex sm:items-center sm:justify-center md:mt-0 xl:w-1/3 sm:w-1/2">
+                            <Link to="/service-areas/san-diego-county/escondido/" className="px-2 mt-16 group sm:flex sm:items-center sm:justify-center md:mt-0 xl:w-1/3 sm:w-1/2">
                                 <div className="relative flex items-center justify-center h-full px-5 pb-32 bg-logo-blue-500 xl:w-full">
                                     <img className="object-cover object-center w-full -mt-32 transition duration-200 group-hover:scale-110" src={Escondido} alt="Escondido" />
                                     <div className="absolute bottom-0 left-0 flex items-center mb-12 ml-7">
@@ -43,7 +43,7 @@ function AllServiceAreas2() {
                                     </div>
                                 </div>
                             </Link>
-                            <Link to="/service-areas/san-diego-county/carlsbad" className="px-2 mt-48 group sm:flex sm:items-center sm:justify-center md:mt-0 xl:w-1/3 sm:w-1/2 xl:-mb-48">
+                            <Link to="/service-areas/san-diego-county/carlsbad/" className="px-2 mt-48 group sm:flex sm:items-center sm:justify-center md:mt-0 xl:w-1/3 sm:w-1/2 xl:-mb-48">
                                 <div className="relative flex items-center justify-center h-full px-5 pb-32 bg-logo-blue-500 xl:w-full">
                                     <img className="object-cover object-center w-full -mt-32 transition duration-200 group-hover:scale-110" src={Carlsbad} alt="Carlsbad" />
                                     <div className="absolute bottom-0 left-0 flex items-center mb-12 ml-7">
@@ -52,7 +52,7 @@ function AllServiceAreas2() {
                                     </div>
                                 </div>
                             </Link>
-                            <Link to="/service-areas/san-diego-county/oceanside"  className="px-2 mt-48 group sm:flex sm:items-center sm:justify-center xl:mt-0 lg:mt-48 xl:w-1/3 sm:w-1/2">
+                            <Link to="/service-areas/san-diego-county/oceanside/"  className="px-2 mt-48 group sm:flex sm:items-center sm:justify-center xl:mt-0 lg:mt-48 xl:w-1/3 sm:w-1/2">
                                 <div className="relative flex items-center justify-center h-full px-5 pb-32 bg-logo-blue-500">
                                     <img className="object-cover object-center w-full -mt-32 transition duration-200 group-hover:scale-110" src={Oceanside} alt="Oceanside" />
                                     <div className="absolute bottom-0 left-0 flex items-center mb-12 ml-7">
@@ -64,7 +64,7 @@ function AllServiceAreas2() {
                         </div>
                         <div className="mt-48 ">
                             <div className="flex flex-col flex-wrap items-center justify-center md:flex-row xl:justify-between">
-                                <Link to="/service-areas/san-diego-county/poway"   className="px-2 mt-16 group sm:flex sm:items-center sm:justify-center md:mt-0 xl:w-1/3 sm:w-1/2">
+                                <Link to="/service-areas/san-diego-county/poway/"   className="px-2 mt-16 group sm:flex sm:items-center sm:justify-center md:mt-0 xl:w-1/3 sm:w-1/2">
                                     <div className="relative flex items-center justify-center h-full px-5 pb-32 bg-logo-blue-500 xl:w-full">
                                         <img className="object-cover object-center w-full -mt-32 transition duration-200 group-hover:scale-110" src={Poway} alt="Poway" />
                                         <div className="absolute bottom-0 left-0 flex items-center mb-12 ml-7">
@@ -73,7 +73,7 @@ function AllServiceAreas2() {
                                         </div>
                                     </div>
                                 </Link>
-                                <Link to="/service-areas/san-diego-county/rancho-bernardo"    className="px-2 mt-48 group sm:flex sm:items-center sm:justify-center md:mt-0 xl:w-1/3 sm:w-1/2 xl:-mb-48">
+                                <Link to="/service-areas/san-diego-county/rancho-bernardo/"    className="px-2 mt-48 group sm:flex sm:items-center sm:justify-center md:mt-0 xl:w-1/3 sm:w-1/2 xl:-mb-48">
                                     <div className="relative flex items-center justify-center h-full px-5 pb-32 bg-logo-blue-500 xl:w-full">
                                         <img className="object-cover object-center w-full -mt-32 transition duration-200 group-hover:scale-110" src={RanchoBernardo} alt="Rancho Bernardo" />
                                         <div className="absolute bottom-0 left-0 flex items-center mb-12 ml-7">
@@ -82,7 +82,7 @@ function AllServiceAreas2() {
                                         </div>
                                     </div>
                                 </Link>
-                                <Link to="/service-areas/san-diego-county/san-diego"  className="px-2 mt-48 group sm:flex sm:items-center sm:justify-center xl:mt-0 lg:mt-48 xl:w-1/3 sm:w-1/2">
+                                <Link to="/service-areas/san-diego-county/san-diego/"  className="px-2 mt-48 group sm:flex sm:items-center sm:justify-center xl:mt-0 lg:mt-48 xl:w-1/3 sm:w-1/2">
                                     <div className="relative flex items-center justify-center h-full px-5 pb-32 bg-logo-blue-500">
                                         <img className="object-cover object-center w-full -mt-32 transition duration-200 group-hover:scale-110" src={SanDiego} alt="San Diego" />
                                         <div className="absolute bottom-0 left-0 flex items-center mb-12 ml-7">
@@ -96,7 +96,7 @@ function AllServiceAreas2() {
                     </div>
                     <div className="mt-40 md:mt-48">
                         <div className="flex flex-col flex-wrap items-center justify-center md:flex-row xl:justify-between">
-                            <Link to="/service-areas/san-diego-county/san-marcos"   className="px-2 mt-16 group sm:flex sm:items-center sm:justify-center md:mt-0 xl:w-1/3 sm:w-1/2">
+                            <Link to="/service-areas/san-diego-county/san-marcos/"   className="px-2 mt-16 group sm:flex sm:items-center sm:justify-center md:mt-0 xl:w-1/3 sm:w-1/2">
                                 <div className="relative flex items-center justify-center h-full px-5 pb-32 bg-logo-blue-500 xl:w-full">
                                     <img className="object-cover object-center w-full -mt-32 transition duration-200 group-hover:scale-110" src={SanMarcos} alt="San Marcos" />
                                     <div className="absolute bottom-0 left-0 flex items-center mb-12 ml-7">
@@ -105,7 +105,7 @@ function AllServiceAreas2() {
                                     </div>
                                 </div>
                             </Link>
-                            <Link to="/service-areas/riverside-county/temecula"  className="px-2 mt-48 group sm:flex sm:items-center sm:justify-center md:mt-0 xl:w-1/3 sm:w-1/2 xl:-mb-48">
+                            <Link to="/service-areas/riverside-county/temecula/"  className="px-2 mt-48 group sm:flex sm:items-center sm:justify-center md:mt-0 xl:w-1/3 sm:w-1/2 xl:-mb-48">
                                 <div className="relative flex items-center justify-center h-full px-5 pb-32 bg-logo-blue-500 xl:w-full">
                                     <img className="object-cover object-center w-full -mt-32 transition duration-200 group-hover:scale-110" src={Temecula} alt="Temecula" />
                                     <div className="absolute bottom-0 left-0 flex items-center mb-12 ml-7">
@@ -114,7 +114,7 @@ function AllServiceAreas2() {
                                     </div>
                                 </div>
                             </Link>
-                            <Link to="/service-areas/san-diego-county/vista"  className="px-2 mt-48 group sm:flex sm:items-center sm:justify-center xl:mt-0 lg:mt-48 xl:w-1/3 sm:w-1/2">
+                            <Link to="/service-areas/san-diego-county/vista/"  className="px-2 mt-48 group sm:flex sm:items-center sm:justify-center xl:mt-0 lg:mt-48 xl:w-1/3 sm:w-1/2">
                                 <div className="relative flex items-center justify-center h-full px-5 pb-32 bg-logo-blue-500">
                                     <img className="object-cover object-center w-full -mt-32 transition duration-200 group-hover:scale-110" src={Vista} alt="Vista" />
                                     <div className="absolute bottom-0 left-0 flex items-center mb-12 ml-7">

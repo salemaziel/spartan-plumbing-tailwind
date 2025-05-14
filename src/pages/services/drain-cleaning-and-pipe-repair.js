@@ -1,6 +1,7 @@
 import * as React from "react"
 
 import Layout from "../../components/layout/Layout"
+import { StaticImage } from "gatsby-plugin-image"
 
 import PageBanner from "../../components/pageBanner"
 
@@ -24,9 +25,20 @@ const DrainCleaningPipeRepair = () => {
                     <p className="mb-6 text-xl text-gray-700">It's important to address drain and pipe problems as soon as possible, as they can cause serious damage to your property and lead to more costly repairs down the line. Contact a qualified plumber as soon as you notice a problem with your drains or pipes.</p>
 
  
-                    </>
-                } />
-
+                    </>                } >
+                <StaticImage
+                    src="../../images/2023-2/plumber-van-behind.jpg"
+                    alt="Our Friendly plumbers"
+                    placeholder="blurred"
+                    layout="constrained"
+                    width={576}
+                    height={384}
+                    formats={["AUTO", "WEBP", "AVIF"]}
+                    quality={95}
+                    imgClassName='object-cover object-center rounded-lg'
+                    loading='lazy'
+                    />
+                    </ServicePages>
         </Layout>
     )
 }

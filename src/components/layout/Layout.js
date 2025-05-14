@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Footer from './Footer';
+//import Footer from './Footer';
 
 import Footer2 from './Footer2';
 

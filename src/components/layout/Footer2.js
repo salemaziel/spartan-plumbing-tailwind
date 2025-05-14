@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 
 //import Logo from '../../images/spartan-plumbing-logo-full.png'
 import { StaticImage } from "gatsby-plugin-image";
@@ -77,7 +77,7 @@ const Footer2 = () => (
       </div>
     </div>
     <div className="flex flex-col items-center lg:flex-row lg:justify-between">
-      <p className="text-xs text-white">© 2023. All rights reserved.</p>
+      <p className="text-xs text-white">© 2025. All rights reserved.</p>
       <div className="order-first mb-4 -mx-2 lg:order-last lg:mb-0">
         {/*<a className="inline-block px-2" href="#">
         <FaFacebookF className="w-6 h-6 text-white" />
