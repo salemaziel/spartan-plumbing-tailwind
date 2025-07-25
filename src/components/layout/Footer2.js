@@ -48,13 +48,13 @@ const Footer2 = () => (
         <div className="inline-block mx-auto -mt-6 font-semibold leading-none lg:mx-0">
           {/*<img className="h-24 md:h-32" src={Logo} alt width="auto" />*/}
           <StaticImage
-                    src="../../images/spartan-plumbing-logo-full.png"
+                    src="../../images/logo/logo-200x186.png"
                     alt="Spartan Plumbing and Drain Logo"
                     placeholder="blurred"
                     layout="constrained"
-                    width={481}
-                    height={128}
-                    aspectRatio={481/128}
+                    width={200}
+                    height={186}
+                    aspectRatio={200/186}
                     formats={["AUTO", "WEBP", "AVIF"]}
                     quality={80}
                     className=''
@@ -73,7 +73,7 @@ const Footer2 = () => (
       </div>
       <div className="w-full px-3 lg:w-1/5">
         <p className="mb-2 font-bold text-white lg:mb-4 lg:text-lg font-heading">Contact</p>
-        <p className="text-white lg:text-lg">contact@spartanpad.com</p>
+        <p className="text-white lg:text-lg">contact@spartanplumbingservices.com</p>
       </div>
     </div>
     <div className="flex flex-col items-center lg:flex-row lg:justify-between">
@@ -82,7 +82,7 @@ const Footer2 = () => (
         {/*<a className="inline-block px-2" href="#">
         <FaFacebookF className="w-6 h-6 text-white" />
 </a>*/}
-        <a className="inline-block px-2" href="mailto:contact@spartanpad.com">
+        <a className="inline-block px-2" href="mailto:contact@spartanplumbingservices.com">
         <FaEnvelope className="w-6 h-6 text-white" />
         </a>
         {/*<a className="inline-block px-2" href="#">

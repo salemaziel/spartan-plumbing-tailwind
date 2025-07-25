@@ -44,7 +44,7 @@ function S2Form() {
                 </div>
                 <div className="mb-6">
                 <h3 className="mb-1 text-2xl text-gray-800">Reach Us By Email</h3>
-                <p className="text-lg leading-loose text-gray-500">contact@spartanpad.com</p>
+                <p className="text-lg leading-loose text-gray-500">contact@spartanplumbingservices.com</p>
                 </div>
               </div>
             </div>

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "escondido",
+    "name": "Escondido",
+    "to": "/service-areas/san-diego-county/escondido/",
+    "image": "../images/cities/escondido2.png",
+    "county": "San Diego County"
+  },
+  {
+    "id": "carlsbad",
+    "name": "Carlsbad",
+    "to": "/service-areas/san-diego-county/carlsbad/",
+    "image": "../images/cities/carlsbad2.jpg",
+    "county": "San Diego County"
+  },
+  {
+    "id": "oceanside",
+    "name": "Oceanside",
+    "to": "/service-areas/san-diego-county/oceanside/",
+    "image": "../images/cities/oceanside2.jpg",
+    "county": "San Diego County"
+  },
+  {
+    "id": "poway",
+    "name": "Poway",
+    "to": "/service-areas/san-diego-county/poway/",
+    "image": "../images/cities/poway2.jpeg",
+    "county": "San Diego County"
+  },
+  {
+    "id": "rancho-bernardo",
+    "name": "Rancho Bernardo",
+    "to": "/service-areas/san-diego-county/rancho-bernardo/",
+    "image": "../images/cities/ranchobernardo2.jpg",
+    "county": "San Diego County"
+  },
+  {
+    "id": "san-diego",
+    "name": "San Diego",
+    "to": "/service-areas/san-diego-county/san-diego/",
+    "image": "../images/cities/sandiego2.jpg",
+    "county": "San Diego County"
+  },
+  {
+    "id": "san-marcos",
+    "name": "San Marcos",
+    "to": "/service-areas/san-diego-county/san-marcos/",
+    "image": "../images/cities/sanmarcos2.png",
+    "county": "San Diego County"
+  },
+  {
+    "id": "temecula",
+    "name": "Temecula",
+    "to": "/service-areas/riverside-county/temecula/",
+    "image": "../images/cities/temecula2.jpg",
+    "county": "Riverside County"
+  },
+  {
+    "id": "vista",
+    "name": "Vista",
+    "to": "/service-areas/san-diego-county/vista/",
+    "image": "../images/cities/vista2.png",
+    "county": "San Diego County"
+  }
+]

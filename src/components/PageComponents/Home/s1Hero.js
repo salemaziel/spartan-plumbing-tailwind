@@ -36,29 +36,29 @@ const S1Hero = ({ bgImage, Title, Description }) => {
             </a>
           </span>
         <div className="container px-6 pt-16 mx-auto lg:px-8 lg:flex">
-        <div className="items-center justify-center block w-full mx-auto lg:hidden">
+        <div className="items-center justify-center flex w-full mx-auto lg:hidden">
           {/*<img src={Logo} alt="logo" className="mx-auto mb-8 w-80 lg:mb-0" />*/}
           <StaticImage
-                    src="../../../images/logo-1-words.png"
+                    src="../../../images/logo/logo-200x186.png"
                     alt="Spartan Plumbing and Drain Logo"
                     placeholder="blurred"
                     layout="constrained"
-                    width={320}
-                    height={94}
-                    aspectRatio={160/47}
+                    width={200}
+                    height={186}
                     formats={["AUTO", "WEBP", "AVIF"]}
                     quality={80}
-                    className='mx-auto mb-8 w-80 lg:mb-0'
+                    className='mx-auto justify-center mb-8'
+                    imgClassName='mx-auto inline-block'
                     loading='eager'
               />
         </div>
        
-          <div className="pb-8 mb-4 text-center animate-fade-in-fwd lg:text-left lg:w-1/2">
+          <div className="pb-4 text-center animate-fade-in-fwd lg:text-left lg:w-1/2">
             <h1 className="text-3xl font-bold leading-relaxed text-gray-300 text-shadow-xl lg:text-5xl xl:text-6xl">
               {Title}
             </h1>
             <p className="mt-6 text-xl font-light text-gray-300 text-shadow-xl lg:text-2xl">{Description}</p>
-            <div className="hidden w-full mx-auto md:justify-start sm:justify-center md:flex md:flex-row md:my-5">
+            <div className="hidden w-full mx-auto md:justify-center sm:justify-center md:flex md:flex-row md:mt-5">
               <a className href="https://www.bbb.org/us/ca/escondido/profile/plumber/spartan-plumbing-and-drain-inc-1126-1000111493/#sealclick" target="_blank" rel="nofollow">
                 {/*<img className='' src="https://seal-central-northern-western-arizona.bbb.org/seals/blue-seal-293-61-whitetxt-bbb-1000111493.png" style={{border: 0}} alt="Spartan Plumbing and Drain Inc BBB Business Review" />*/}
                 <StaticImage
@@ -68,9 +68,10 @@ const S1Hero = ({ bgImage, Title, Description }) => {
                     layout="constrained"
                     width={293}
                     height={61}
+                    aspectRatio={293/61}
                     formats={["AUTO", "WEBP", "AVIF"]}
-                    quality={80}
-                    imgClassName='border-0'
+                    quality={90}
+                    imgClassName='border-0 w-[50%] lg:w-full'
                     loading='eager'
                     />
               </a>

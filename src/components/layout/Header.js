@@ -12,6 +12,7 @@ import {
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image";
 
+
 const Header = () => {
 //  const [show, setShow] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -41,20 +42,20 @@ const Header = () => {
         to="/"
         aria-label="Company"
         title="Spartan Plumbing and Drain"
-        className="absolute z-20 items-center hidden text-gray-100 bg-white rounded lg:block lg:mt-4 lg:ml-4 lg:w-1/4 lg:p-5"
+        className="absolute z-20 items-center hidden text-gray-100 bg-white rounded lg:block lg:mt-4 lg:ml-4 lg:p-5 lg:ml-[10%]"
       >
         <StaticImage
-                    src="../../images/logo-1-words.png"
+                    src="../../images/logo/logo-200x186.png"
                     alt="Spartan Plumbing and Drain Logo"
                     placeholder="blurred"
                     layout="constrained"
-                    width={436}
-                    height={128}
-                    aspectRatio={109/32}
+                    width={200}
+                    height={186}
+                    
                     formats={["AUTO", "WEBP", "AVIF"]}
                     quality={80}
-                    className='w-full'
-                    imgClassName='w-full'
+                    className=''
+                    imgClassName=''
                     loading='eager'
               />
       </Link>
@@ -67,7 +68,7 @@ const Header = () => {
         <div className="flex justify-center w-full px-2 lg:flex md:px-6 md:justify-between">
           {/* Begin Phone number*/}
 
-          <div className="flex flex-row justify-end md:w-1/3 lg:w-5/12">
+          <div className="flex flex-row justify-end md:w-1/3">
 
             <a href="tel:6193249396" className="flex visible py-2 text-3xl font-bold tracking-widest text-gray-100 font-montserrat lg:text-lg ">
               <FaPhoneAlt className="w-8 h-8 mx-2 lg:w-5 lg:h-5" />
@@ -89,7 +90,7 @@ const Header = () => {
             <a href="#" className="inline-flex flex-wrap items-center justify-center mx-1 text-center text-gray-100 align-middle border border-gray-100 rounded-full md:p-2 lg:p-0 md:mx-2 md:w-10 md:h-10 ">
               <FaInstagram size="1.5rem" className="" />
   </a>*/}
-            <a href="mailto:contact@spartanpad.com" className="inline-flex flex-wrap items-center justify-center mx-1 text-center text-gray-100 align-middle border border-gray-100 rounded-full md:p-2 lg:p-0 md:mx-2 md:w-10 md:h-10 ">
+            <a href="mailto:contact@spartanplumbingservices.com" className="inline-flex flex-wrap items-center justify-center mx-1 text-center text-gray-100 align-middle border border-gray-100 rounded-full md:p-2 lg:p-0 md:mx-2 md:w-10 md:h-10 ">
               <FaEnvelope size="1.5rem" className="text-white fill-white" />
             </a>
   </div>
@@ -100,7 +101,7 @@ const Header = () => {
 
       {/* End Blue Part of Top Bar Above Nav*/}
 
-      <header className={" transition-all" + " ease-out" + " duration-300" + (scroll ? ` bg-white` : " bg-white") + (scroll ? " shadow" : "") + (scroll ? ` block` : " hidden" + " lg:block") + " px-4" + " py-5" + " mx-auto" + "msm:max-w-xl" + " w-full" + " md:max-w-full" + " md:px-16" + " lg:px-8" + " sticky" + " top-0" + " left-0" + " right-0" + (scroll ? ` text-blue-800` : ` text-blue-800`) + " z-10"} >
+      <header className={" transition-all" + " ease-out" + " duration-300" + (scroll ? ` bg-white bg-opacity-90` : " bg-white") + (scroll ? " shadow" : "") + (scroll ? ` block` : " hidden" + " lg:block") + " px-4" + " py-5" + " mx-auto" + "msm:max-w-xl" + " w-full" + " md:max-w-full" + " md:px-16" + " lg:px-8" + " sticky" + " top-0" + " left-0" + " right-0" + (scroll ? ` text-blue-800` : ` text-blue-800`) + " z-10"} >
         <nav className="container relative flex items-center justify-between mx-auto font-semibold uppercase font-montserrat">
           <Link
             to="/"
@@ -109,17 +110,16 @@ const Header = () => {
             className={" text-gray-100" + " inline-flex" + " items-center" + " md:w-56" + " w-40" + (scroll ? " visible" : " invisible")}
           >
             <StaticImage
-                    src="../../images/logo-1-words.png"
+                    src="../../images/logo/logo-200x186.png"
                     alt="Spartan Plumbing and Drain Logo"
                     placeholder="blurred"
                     layout="constrained"
-                    width={224}
-                    height={66}
-                    aspectRatio={112/33}
+                    height={93}
+                    width={100}
                     formats={["AUTO", "WEBP", "AVIF"]}
                     quality={80}
-                    className='w-full'
-                    imgClassName='w-full'
+                    className=''
+                    imgClassName=''
                     loading='lazy'
               />
 
@@ -309,7 +309,7 @@ const Header = () => {
                         className="inline-flex items-center w-40 text-gray-100"
                       >
                         <StaticImage
-                    src="../../images/logo-1-words.png"
+                    src="../../images/logo/logo-200x186.png"
                     alt="Spartan Plumbing and Drain Logo"
                     placeholder="blurred"
                     layout="constrained"
