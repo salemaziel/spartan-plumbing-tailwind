@@ -1,3 +1,4 @@
+import React from "react";
 import ServiceAreaCard from "./ServiceAreaCard";
 import serviceAreasData from "../../../data/serviceAreas.json";
 
